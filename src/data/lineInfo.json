@@ -1,0 +1,63 @@
+{
+    "DATA" : [{
+            "SUBWAY_ID": "1001",
+            "SUBWAY_NAME": "01호선"
+        },
+        {
+            "SUBWAY_ID": "1002",
+            "SUBWAY_NAME": "02호선"
+        },
+        {
+            "SUBWAY_ID": "1003",
+            "SUBWAY_NAME": "03호선"
+        },
+        {
+            "SUBWAY_ID": "1004",
+            "SUBWAY_NAME": "04호선"
+        },
+        {
+            "SUBWAY_ID": "1005",
+            "SUBWAY_NAME": "05호선"
+        },
+        {
+            "SUBWAY_ID": "1006",
+            "SUBWAY_NAME": "06호선"
+        },
+        {
+            "SUBWAY_ID": "1007",
+            "SUBWAY_NAME": "07호선"
+        },
+        {
+            "SUBWAY_ID": "1008",
+            "SUBWAY_NAME": "08호선"
+        },
+        {
+            "SUBWAY_ID": "1009",
+            "SUBWAY_NAME": "09호선"
+        },
+        {
+            "SUBWAY_ID": "1092",
+            "SUBWAY_NAME": "우이신설경전철"
+        },
+        {
+            "SUBWAY_ID": "1067",
+            "SUBWAY_NAME": "경춘선"
+        },
+        {
+            "SUBWAY_ID": "1063",
+            "SUBWAY_NAME": "수인선"
+        },
+        {
+            "SUBWAY_ID": "1075",
+            "SUBWAY_NAME": "수인분당선"
+        },
+        {
+            "SUBWAY_ID": "1077",
+            "SUBWAY_NAME": "신분당선"
+        },
+        {
+            "SUBWAY_ID": "1065",
+            "SUBWAY_NAME": "공항철도"
+        }
+    ]
+}
