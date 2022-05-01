@@ -101,7 +101,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Kkachisan",
             "station_nm": "까치산",
             "line_num_origin": "02호선",
@@ -109,7 +109,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "City Hall",
             "station_nm": "시청",
             "line_num_origin": "02호선",
@@ -117,7 +117,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Euljiro 1(il)-ga",
             "station_nm": "을지로입구",
             "line_num_origin": "02호선",
@@ -125,7 +125,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Euljiro 3(sam)-ga",
             "station_nm": "을지로3가",
             "line_num_origin": "02호선",
@@ -133,7 +133,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Euljiro 4(sa)-ga",
             "station_nm": "을지로4가",
             "line_num_origin": "02호선",
@@ -141,7 +141,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Dongdaemun History  Culture Park",
             "station_nm": "동대문역사문화공원",
             "line_num_origin": "02호선",
@@ -149,7 +149,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sindang",
             "station_nm": "신당",
             "line_num_origin": "02호선",
@@ -157,7 +157,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sangwangsimni",
             "station_nm": "상왕십리",
             "line_num_origin": "02호선",
@@ -173,7 +173,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Wangsimni",
             "station_nm": "왕십리",
             "line_num_origin": "02호선",
@@ -181,7 +181,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Hanyang Univ.",
             "station_nm": "한양대",
             "line_num_origin": "02호선",
@@ -189,7 +189,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Ttukseom",
             "station_nm": "뚝섬",
             "line_num_origin": "02호선",
@@ -197,7 +197,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Seongsu",
             "station_nm": "성수",
             "line_num_origin": "02호선",
@@ -205,7 +205,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Konkuk Univ.",
             "station_nm": "건대입구",
             "line_num_origin": "02호선",
@@ -213,7 +213,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Guui",
             "station_nm": "구의",
             "line_num_origin": "02호선",
@@ -221,7 +221,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Gangbyeon",
             "station_nm": "강변",
             "line_num_origin": "02호선",
@@ -229,7 +229,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Jamsillaru",
             "station_nm": "잠실나루",
             "line_num_origin": "02호선",
@@ -237,7 +237,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Jamsil",
             "station_nm": "잠실",
             "line_num_origin": "02호선",
@@ -245,7 +245,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Jamsilsaenae",
             "station_nm": "잠실새내",
             "line_num_origin": "02호선",
@@ -253,7 +253,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sports Complex",
             "station_nm": "종합운동장",
             "line_num_origin": "02호선",
@@ -261,7 +261,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Samseong",
             "station_nm": "삼성",
             "line_num_origin": "02호선",
@@ -269,7 +269,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Seolleung",
             "station_nm": "선릉",
             "line_num_origin": "02호선",
@@ -277,7 +277,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Yeoksam",
             "station_nm": "역삼",
             "line_num_origin": "02호선",
@@ -285,7 +285,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Gangnam",
             "station_nm": "강남",
             "line_num_origin": "02호선",
@@ -293,7 +293,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Seoul Nat`l Univ. of Education",
             "station_nm": "교대",
             "line_num_origin": "02호선",
@@ -301,7 +301,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Seocho",
             "station_nm": "서초",
             "line_num_origin": "02호선",
@@ -309,7 +309,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Bangbae",
             "station_nm": "방배",
             "line_num_origin": "02호선",
@@ -317,7 +317,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sadang",
             "station_nm": "사당",
             "line_num_origin": "02호선",
@@ -325,7 +325,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Nakseongdae",
             "station_nm": "낙성대",
             "line_num_origin": "02호선",
@@ -333,7 +333,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Seoul Nat`l Univ.",
             "station_nm": "서울대입구",
             "line_num_origin": "02호선",
@@ -341,7 +341,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Bongcheon",
             "station_nm": "봉천",
             "line_num_origin": "02호선",
@@ -349,7 +349,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sillim",
             "station_nm": "신림",
             "line_num_origin": "02호선",
@@ -357,7 +357,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sindaebang",
             "station_nm": "신대방",
             "line_num_origin": "02호선",
@@ -365,7 +365,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Guro Digital Complex",
             "station_nm": "구로디지털단지",
             "line_num_origin": "02호선",
@@ -373,7 +373,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Daerim",
             "station_nm": "대림",
             "line_num_origin": "02호선",
@@ -381,7 +381,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sindorim",
             "station_nm": "신도림",
             "line_num_origin": "02호선",
@@ -389,7 +389,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Mullae",
             "station_nm": "문래",
             "line_num_origin": "02호선",
@@ -397,7 +397,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Yeongdeungpo-gu Office",
             "station_nm": "영등포구청",
             "line_num_origin": "02호선",
@@ -405,7 +405,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Dangsan",
             "station_nm": "당산",
             "line_num_origin": "02호선",
@@ -413,7 +413,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Hapjeong",
             "station_nm": "합정",
             "line_num_origin": "02호선",
@@ -421,7 +421,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Hongik Univ.",
             "station_nm": "홍대입구",
             "line_num_origin": "02호선",
@@ -429,7 +429,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sinchon",
             "station_nm": "신촌",
             "line_num_origin": "02호선",
@@ -437,7 +437,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Ewha Womans Univ.",
             "station_nm": "이대",
             "line_num_origin": "02호선",
@@ -445,7 +445,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Ahyeon",
             "station_nm": "아현",
             "line_num_origin": "02호선",
@@ -453,7 +453,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Chungjeongno",
             "station_nm": "충정로",
             "line_num_origin": "02호선",
@@ -461,7 +461,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Yongdap",
             "station_nm": "용답",
             "line_num_origin": "02호선",
@@ -469,7 +469,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sindap",
             "station_nm": "신답",
             "line_num_origin": "02호선",
@@ -477,7 +477,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sinseol-dong",
             "station_nm": "신설동",
             "line_num_origin": "02호선",
@@ -485,7 +485,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Dorimcheon",
             "station_nm": "도림천",
             "line_num_origin": "02호선",
@@ -493,7 +493,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Yangcheon-gu Office",
             "station_nm": "양천구청",
             "line_num_origin": "02호선",
@@ -501,7 +501,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Sinjeongnegeori",
             "station_nm": "신정네거리",
             "line_num_origin": "02호선",
@@ -509,7 +509,7 @@
         },
         {
             "line_num": "2",
-            "color": "#09D3E",
+            "color": "#009D3E",
             "station_nm_eng": "Yongdu",
             "station_nm": "용두",
             "line_num_origin": "02호선",
