@@ -75,7 +75,14 @@ const StationInfo:React.FC<StationInfoProps> = (props: StationInfoProps) => {
                   }}
                 >
                   <TableCell align="left">{arrive.bstatnNm}</TableCell>
-                  <TableCell align="left">{arrive.arvlMsg2}</TableCell>
+                  <TableCell align="left">
+                    {arrive.barvlDt !== "0"
+                      ? Math.floor(parseInt(arrive.barvlDt) / 60) +
+                        " 분 " +
+                        (parseInt(arrive.barvlDt) % 60) +
+                        "초 후 도착 "
+                      : arrive?.arvlMsg2}
+                  </TableCell>
                   <TableCell align="left">{arrive.arvlMsg3}</TableCell>
                   <TableCell align="left">
                     {arrive.recptnDt.replace(
