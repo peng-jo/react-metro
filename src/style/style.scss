@@ -1,81 +1,81 @@
+@use "loading";
+
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import "./loading.scss";
 
 * {
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .search {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 30px;
-    .search-input {
-        position: relative;
-        border: none;
-        border-bottom: 1px solid #000;
-        width: 300px;
-        height: 30px;
-        font-size: 15px;
-        
-    }
-    .icon {
-        font-size: 20px;
-        padding: 6px;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+  .search-input {
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 300px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .icon {
+    font-size: 20px;
+    padding: 6px;
+  }
 }
 .station {
-    user-select: none;
-    margin: 4px 2px;
-    padding: 10px 20px;
-    display: inline-block;
-    font-weight: 800;
-    border-radius: 50px;
-    border: 6px solid #1e1e1e;
-    .station-header {
-        display: flex;
-        align-items: flex-start;
-        font-size: 26px;
-        .num {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #1e1e1e;
-            height: 26px;
-            width: 26px;
-            border-radius: 50%;
-            border: 3px solid #1e1e1e;
-        }
-        .station-name {
-            padding-left: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            word-break : keep-all;
-            .station-sub-name {
-                font-size: 13px;
-            }
-        }
+  user-select: none;
+  margin: 4px 2px;
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: 800;
+  border-radius: 50px;
+  border: 6px solid #1e1e1e;
+  .station-header {
+    display: flex;
+    align-items: flex-start;
+    font-size: 26px;
+    .num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #1e1e1e;
+      height: 26px;
+      width: 26px;
+      border-radius: 50%;
+      border: 3px solid #1e1e1e;
     }
+    .station-name {
+      padding-left: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      word-break: keep-all;
+      .station-sub-name {
+        font-size: 13px;
+      }
+    }
+  }
 }
 .sation-info {
-    margin-top: 30px;
-    .MuiPaper-root {
-        margin-top: 20px;
-        .center {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .icon {
-                cursor: pointer;
-                float: right;
-                &.rotate {
-                    animation: rotate-loading 1s linear 0s normal;
-                }
-            }
+  margin-top: 30px;
+  .MuiPaper-root {
+    margin-top: 20px;
+    .center {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .icon {
+        cursor: pointer;
+        float: right;
+        &.rotate {
+          animation: rotate-loading 1s linear 0s normal;
         }
+      }
     }
+  }
 }
