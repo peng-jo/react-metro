@@ -5,8 +5,8 @@ import {
   SubwaymasterData,
 } from "@/types/stationType";
 
-import stationTopologyData from "@data/StationTopology.json";
-import subwaymasterData from "@data/SubwaymasterData.json";
+import stationTopologyData from "@data/stationTopology.json";
+import subwaymasterData from "@data/subwaymasterData.json";
 
 class MetroEngine {
   private readonly stationMap = new Map<string, StationInfo>();

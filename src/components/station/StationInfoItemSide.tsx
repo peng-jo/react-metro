@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-// import StationTopology from "@data/subInfo.json";
+import React from "react";
+
 import { StationInfo } from "@/types/stationType";
 import ArrowIcon from "./icon/ArrowIcon";
 
