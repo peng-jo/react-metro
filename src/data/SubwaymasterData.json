@@ -1,0 +1,4178 @@
+[
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000100",
+    "STATION_NAME": "소요산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000101",
+    "STATION_NAME": "동두천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000102",
+    "STATION_NAME": "보산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000103",
+    "STATION_NAME": "동두천중앙",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000104",
+    "STATION_NAME": "지행",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000105",
+    "STATION_NAME": "덕정",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000106",
+    "STATION_NAME": "덕계",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000107",
+    "STATION_NAME": "양주",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000108",
+    "STATION_NAME": "녹양",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000109",
+    "STATION_NAME": "가능",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000110",
+    "STATION_NAME": "의정부",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000111",
+    "STATION_NAME": "회룡",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000112",
+    "STATION_NAME": "망월사",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000113",
+    "STATION_NAME": "도봉산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000114",
+    "STATION_NAME": "도봉",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000115",
+    "STATION_NAME": "방학",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000116",
+    "STATION_NAME": "창동",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000117",
+    "STATION_NAME": "녹천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000118",
+    "STATION_NAME": "월계",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000119",
+    "STATION_NAME": "광운대",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000120",
+    "STATION_NAME": "석계",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000121",
+    "STATION_NAME": "신이문",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000122",
+    "STATION_NAME": "외대앞",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000123",
+    "STATION_NAME": "회기",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000124",
+    "STATION_NAME": "청량리",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000125",
+    "STATION_NAME": "제기동",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000126",
+    "STATION_NAME": "신설동",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000127",
+    "STATION_NAME": "동묘앞",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000128",
+    "STATION_NAME": "동대문",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000129",
+    "STATION_NAME": "종로5가",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000130",
+    "STATION_NAME": "종로3가",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000131",
+    "STATION_NAME": "종각",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000132",
+    "STATION_NAME": "시청",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000133",
+    "STATION_NAME": "서울",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000134",
+    "STATION_NAME": "남영",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000135",
+    "STATION_NAME": "용산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000136",
+    "STATION_NAME": "노량진",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000137",
+    "STATION_NAME": "대방",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000138",
+    "STATION_NAME": "신길",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000139",
+    "STATION_NAME": "영등포",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000140",
+    "STATION_NAME": "신도림",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000141",
+    "STATION_NAME": "구로",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000142",
+    "STATION_NAME": "구일",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000143",
+    "STATION_NAME": "개봉",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000144",
+    "STATION_NAME": "오류동",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000145",
+    "STATION_NAME": "온수",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000146",
+    "STATION_NAME": "역곡",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000147",
+    "STATION_NAME": "소사",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000148",
+    "STATION_NAME": "부천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000149",
+    "STATION_NAME": "중동",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000150",
+    "STATION_NAME": "송내",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000151",
+    "STATION_NAME": "부개",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000152",
+    "STATION_NAME": "부평",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000153",
+    "STATION_NAME": "백운",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000154",
+    "STATION_NAME": "동암",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000155",
+    "STATION_NAME": "간석",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000156",
+    "STATION_NAME": "주안",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000157",
+    "STATION_NAME": "도화",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000158",
+    "STATION_NAME": "제물포",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000159",
+    "STATION_NAME": "도원",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000160",
+    "STATION_NAME": "동인천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001000161",
+    "STATION_NAME": "인천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001001001",
+    "STATION_NAME": "청산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001001002",
+    "STATION_NAME": "전곡",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001001003",
+    "STATION_NAME": "연천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001075410",
+    "STATION_NAME": "광명",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080142",
+    "STATION_NAME": "가산디지털단지",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080143",
+    "STATION_NAME": "독산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080144",
+    "STATION_NAME": "금천구청",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080145",
+    "STATION_NAME": "석수",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080146",
+    "STATION_NAME": "관악",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080147",
+    "STATION_NAME": "안양",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080148",
+    "STATION_NAME": "명학",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080149",
+    "STATION_NAME": "금정",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080150",
+    "STATION_NAME": "군포",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080151",
+    "STATION_NAME": "당정",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080152",
+    "STATION_NAME": "의왕",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080153",
+    "STATION_NAME": "성균관대",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080154",
+    "STATION_NAME": "화서",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080155",
+    "STATION_NAME": "수원",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080156",
+    "STATION_NAME": "세류",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080157",
+    "STATION_NAME": "병점",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080158",
+    "STATION_NAME": "세마",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080159",
+    "STATION_NAME": "오산대",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080160",
+    "STATION_NAME": "오산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080161",
+    "STATION_NAME": "진위",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080162",
+    "STATION_NAME": "송탄",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080163",
+    "STATION_NAME": "서정리",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080164",
+    "STATION_NAME": "지제",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080165",
+    "STATION_NAME": "평택",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080166",
+    "STATION_NAME": "성환",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080167",
+    "STATION_NAME": "직산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080168",
+    "STATION_NAME": "두정",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080169",
+    "STATION_NAME": "천안",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080170",
+    "STATION_NAME": "봉명",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080171",
+    "STATION_NAME": "쌍용(나사렛대)",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080172",
+    "STATION_NAME": "아산",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080173",
+    "STATION_NAME": "탕정",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080174",
+    "STATION_NAME": "배방",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080175",
+    "STATION_NAME": "온양온천",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001080176",
+    "STATION_NAME": "신창",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1001",
+    "STATION_CODE": "1001801571",
+    "STATION_NAME": "서동탄",
+    "SUBWAY_NAME": "1호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000201",
+    "STATION_NAME": "시청",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000202",
+    "STATION_NAME": "을지로입구",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000203",
+    "STATION_NAME": "을지로3가",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000204",
+    "STATION_NAME": "을지로4가",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000205",
+    "STATION_NAME": "동대문역사문화공원",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000206",
+    "STATION_NAME": "신당",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000207",
+    "STATION_NAME": "상왕십리",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000208",
+    "STATION_NAME": "왕십리",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000209",
+    "STATION_NAME": "한양대",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000210",
+    "STATION_NAME": "뚝섬",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000211",
+    "STATION_NAME": "성수",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000212",
+    "STATION_NAME": "건대입구",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000213",
+    "STATION_NAME": "구의",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000214",
+    "STATION_NAME": "강변",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000215",
+    "STATION_NAME": "잠실나루",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000216",
+    "STATION_NAME": "잠실",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000217",
+    "STATION_NAME": "잠실새내",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000218",
+    "STATION_NAME": "종합운동장",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000219",
+    "STATION_NAME": "삼성",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000220",
+    "STATION_NAME": "선릉",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000221",
+    "STATION_NAME": "역삼",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000222",
+    "STATION_NAME": "강남",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000223",
+    "STATION_NAME": "교대",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000224",
+    "STATION_NAME": "서초",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000225",
+    "STATION_NAME": "방배",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000226",
+    "STATION_NAME": "사당",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000227",
+    "STATION_NAME": "낙성대",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000228",
+    "STATION_NAME": "서울대입구",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000229",
+    "STATION_NAME": "봉천",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000230",
+    "STATION_NAME": "신림",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000231",
+    "STATION_NAME": "신대방",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000232",
+    "STATION_NAME": "구로디지털단지",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000233",
+    "STATION_NAME": "대림",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000234",
+    "STATION_NAME": "신도림",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000235",
+    "STATION_NAME": "문래",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000236",
+    "STATION_NAME": "영등포구청",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000237",
+    "STATION_NAME": "당산",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000238",
+    "STATION_NAME": "합정",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000239",
+    "STATION_NAME": "홍대입구",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000240",
+    "STATION_NAME": "신촌",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000241",
+    "STATION_NAME": "이대",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000242",
+    "STATION_NAME": "아현",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002000243",
+    "STATION_NAME": "충정로",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002111",
+    "STATION_NAME": "용답",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002112",
+    "STATION_NAME": "신답",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002113",
+    "STATION_NAME": "용두",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002114",
+    "STATION_NAME": "신설동",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002341",
+    "STATION_NAME": "도림천",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002342",
+    "STATION_NAME": "양천구청",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002343",
+    "STATION_NAME": "신정네거리",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1002",
+    "STATION_CODE": "1002002344",
+    "STATION_NAME": "까치산",
+    "SUBWAY_NAME": "2호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000309",
+    "STATION_NAME": "대화",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000310",
+    "STATION_NAME": "주엽",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000311",
+    "STATION_NAME": "정발산",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000312",
+    "STATION_NAME": "마두",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000313",
+    "STATION_NAME": "백석",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000314",
+    "STATION_NAME": "대곡",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000315",
+    "STATION_NAME": "화정",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000316",
+    "STATION_NAME": "원당",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000317",
+    "STATION_NAME": "원흥",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000318",
+    "STATION_NAME": "삼송",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000319",
+    "STATION_NAME": "지축",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000320",
+    "STATION_NAME": "구파발",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000321",
+    "STATION_NAME": "연신내",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000322",
+    "STATION_NAME": "불광",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000323",
+    "STATION_NAME": "녹번",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000324",
+    "STATION_NAME": "홍제",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000325",
+    "STATION_NAME": "무악재",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000326",
+    "STATION_NAME": "독립문",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000327",
+    "STATION_NAME": "경복궁",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000328",
+    "STATION_NAME": "안국",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000329",
+    "STATION_NAME": "종로3가",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000330",
+    "STATION_NAME": "을지로3가",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000331",
+    "STATION_NAME": "충무로",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000332",
+    "STATION_NAME": "동대입구",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000333",
+    "STATION_NAME": "약수",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000334",
+    "STATION_NAME": "금호",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000335",
+    "STATION_NAME": "옥수",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000336",
+    "STATION_NAME": "압구정",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000337",
+    "STATION_NAME": "신사",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000338",
+    "STATION_NAME": "잠원",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000339",
+    "STATION_NAME": "고속터미널",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000340",
+    "STATION_NAME": "교대",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000341",
+    "STATION_NAME": "남부터미널",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000342",
+    "STATION_NAME": "양재",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000343",
+    "STATION_NAME": "매봉",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000344",
+    "STATION_NAME": "도곡",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000345",
+    "STATION_NAME": "대치",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000346",
+    "STATION_NAME": "학여울",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000347",
+    "STATION_NAME": "대청",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000348",
+    "STATION_NAME": "일원",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000349",
+    "STATION_NAME": "수서",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000350",
+    "STATION_NAME": "가락시장",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000351",
+    "STATION_NAME": "경찰병원",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1003",
+    "STATION_CODE": "1003000352",
+    "STATION_NAME": "오금",
+    "SUBWAY_NAME": "3호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000409",
+    "STATION_NAME": "불암산",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000410",
+    "STATION_NAME": "상계",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000411",
+    "STATION_NAME": "노원",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000412",
+    "STATION_NAME": "창동",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000413",
+    "STATION_NAME": "쌍문",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000414",
+    "STATION_NAME": "수유",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000415",
+    "STATION_NAME": "미아",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000416",
+    "STATION_NAME": "미아사거리",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000417",
+    "STATION_NAME": "길음",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000418",
+    "STATION_NAME": "성신여대입구",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000419",
+    "STATION_NAME": "한성대입구",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000420",
+    "STATION_NAME": "혜화",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000421",
+    "STATION_NAME": "동대문",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000422",
+    "STATION_NAME": "동대문역사문화공원",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000423",
+    "STATION_NAME": "충무로",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000424",
+    "STATION_NAME": "명동",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000425",
+    "STATION_NAME": "회현",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000426",
+    "STATION_NAME": "서울",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000427",
+    "STATION_NAME": "숙대입구",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000428",
+    "STATION_NAME": "삼각지",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000429",
+    "STATION_NAME": "신용산",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000430",
+    "STATION_NAME": "이촌",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000431",
+    "STATION_NAME": "동작",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000432",
+    "STATION_NAME": "총신대입구(이수)",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000433",
+    "STATION_NAME": "사당",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000434",
+    "STATION_NAME": "남태령",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000435",
+    "STATION_NAME": "선바위",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000436",
+    "STATION_NAME": "경마공원",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000437",
+    "STATION_NAME": "대공원",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000438",
+    "STATION_NAME": "과천",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000439",
+    "STATION_NAME": "정부과천청사",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000440",
+    "STATION_NAME": "인덕원",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000441",
+    "STATION_NAME": "평촌",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000442",
+    "STATION_NAME": "범계",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000443",
+    "STATION_NAME": "금정",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000444",
+    "STATION_NAME": "산본",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000445",
+    "STATION_NAME": "수리산",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000446",
+    "STATION_NAME": "대야미",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000447",
+    "STATION_NAME": "반월",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000448",
+    "STATION_NAME": "상록수",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000449",
+    "STATION_NAME": "한대앞",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000450",
+    "STATION_NAME": "중앙",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000451",
+    "STATION_NAME": "고잔",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000452",
+    "STATION_NAME": "초지",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000453",
+    "STATION_NAME": "안산",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000454",
+    "STATION_NAME": "신길온천",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000455",
+    "STATION_NAME": "정왕",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1004",
+    "STATION_CODE": "1004000456",
+    "STATION_NAME": "오이도",
+    "SUBWAY_NAME": "4호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000510",
+    "STATION_NAME": "방화",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000511",
+    "STATION_NAME": "개화산",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000512",
+    "STATION_NAME": "김포공항",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000513",
+    "STATION_NAME": "송정",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000514",
+    "STATION_NAME": "마곡",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000515",
+    "STATION_NAME": "발산",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000516",
+    "STATION_NAME": "우장산",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000517",
+    "STATION_NAME": "화곡",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000518",
+    "STATION_NAME": "까치산",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000519",
+    "STATION_NAME": "신정(은행정)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000520",
+    "STATION_NAME": "목동",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000521",
+    "STATION_NAME": "오목교(목동운동장앞)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000522",
+    "STATION_NAME": "양평",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000523",
+    "STATION_NAME": "영등포구청",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000524",
+    "STATION_NAME": "영등포시장",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000525",
+    "STATION_NAME": "신길",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000526",
+    "STATION_NAME": "여의도",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000527",
+    "STATION_NAME": "여의나루",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000528",
+    "STATION_NAME": "마포",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000529",
+    "STATION_NAME": "공덕",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000530",
+    "STATION_NAME": "애오개",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000531",
+    "STATION_NAME": "충정로",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000532",
+    "STATION_NAME": "서대문",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000533",
+    "STATION_NAME": "광화문",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000534",
+    "STATION_NAME": "종로3가",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000535",
+    "STATION_NAME": "을지로4가",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000536",
+    "STATION_NAME": "동대문역사문화공원",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000537",
+    "STATION_NAME": "청구",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000538",
+    "STATION_NAME": "신금호",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000539",
+    "STATION_NAME": "행당",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000540",
+    "STATION_NAME": "왕십리",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000541",
+    "STATION_NAME": "마장",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000542",
+    "STATION_NAME": "답십리",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000543",
+    "STATION_NAME": "장한평",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000544",
+    "STATION_NAME": "군자(능동)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000545",
+    "STATION_NAME": "아차산(어린이대공원후문)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000546",
+    "STATION_NAME": "광나루(장신대)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000547",
+    "STATION_NAME": "천호(풍납토성)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000548",
+    "STATION_NAME": "강동",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000549",
+    "STATION_NAME": "길동",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000550",
+    "STATION_NAME": "굽은다리(강동구민회관앞)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000551",
+    "STATION_NAME": "명일",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000552",
+    "STATION_NAME": "고덕",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000553",
+    "STATION_NAME": "상일동",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000554",
+    "STATION_NAME": "강일",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000555",
+    "STATION_NAME": "미사",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000556",
+    "STATION_NAME": "하남풍산",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000557",
+    "STATION_NAME": "하남시청",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005000558",
+    "STATION_NAME": "하남검단산",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080549",
+    "STATION_NAME": "둔촌동",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080550",
+    "STATION_NAME": "올림픽공원(한국체대)",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080551",
+    "STATION_NAME": "방이",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080552",
+    "STATION_NAME": "오금",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080553",
+    "STATION_NAME": "개롱",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080554",
+    "STATION_NAME": "거여",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1005",
+    "STATION_CODE": "1005080555",
+    "STATION_NAME": "마천",
+    "SUBWAY_NAME": "5호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000610",
+    "STATION_NAME": "응암순환(상선)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000611",
+    "STATION_NAME": "역촌",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000612",
+    "STATION_NAME": "불광",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000613",
+    "STATION_NAME": "독바위",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000614",
+    "STATION_NAME": "연신내",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000615",
+    "STATION_NAME": "구산",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000616",
+    "STATION_NAME": "새절(신사)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000617",
+    "STATION_NAME": "증산(명지대앞)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000618",
+    "STATION_NAME": "디지털미디어시티",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000619",
+    "STATION_NAME": "월드컵경기장(성산)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000620",
+    "STATION_NAME": "마포구청",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000621",
+    "STATION_NAME": "망원",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000622",
+    "STATION_NAME": "합정",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000623",
+    "STATION_NAME": "상수",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000624",
+    "STATION_NAME": "광흥창",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000625",
+    "STATION_NAME": "대흥(서강대앞)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000626",
+    "STATION_NAME": "공덕",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000627",
+    "STATION_NAME": "효창공원앞",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000628",
+    "STATION_NAME": "삼각지",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000629",
+    "STATION_NAME": "녹사평",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000630",
+    "STATION_NAME": "이태원",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000631",
+    "STATION_NAME": "한강진",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000632",
+    "STATION_NAME": "버티고개",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000633",
+    "STATION_NAME": "약수",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000634",
+    "STATION_NAME": "청구",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000635",
+    "STATION_NAME": "신당",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000636",
+    "STATION_NAME": "동묘앞",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000637",
+    "STATION_NAME": "창신",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000638",
+    "STATION_NAME": "보문",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000639",
+    "STATION_NAME": "안암(고대병원앞)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000640",
+    "STATION_NAME": "고려대",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000641",
+    "STATION_NAME": "월곡(동덕여대)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000642",
+    "STATION_NAME": "상월곡(한국과학기술연구원)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000643",
+    "STATION_NAME": "돌곶이",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000644",
+    "STATION_NAME": "석계",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000645",
+    "STATION_NAME": "태릉입구",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000646",
+    "STATION_NAME": "화랑대(서울여대입구)",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000647",
+    "STATION_NAME": "봉화산",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1006",
+    "STATION_CODE": "1006000648",
+    "STATION_NAME": "신내",
+    "SUBWAY_NAME": "6호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000709",
+    "STATION_NAME": "장암",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000710",
+    "STATION_NAME": "도봉산",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000711",
+    "STATION_NAME": "수락산",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000712",
+    "STATION_NAME": "마들",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000713",
+    "STATION_NAME": "노원",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000714",
+    "STATION_NAME": "중계",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000715",
+    "STATION_NAME": "하계",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000716",
+    "STATION_NAME": "공릉(서울산업대입구)",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000717",
+    "STATION_NAME": "태릉입구",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000718",
+    "STATION_NAME": "먹골",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000719",
+    "STATION_NAME": "중화",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000720",
+    "STATION_NAME": "상봉",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000721",
+    "STATION_NAME": "면목",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000722",
+    "STATION_NAME": "사가정",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000723",
+    "STATION_NAME": "용마산",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000724",
+    "STATION_NAME": "중곡",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000725",
+    "STATION_NAME": "군자(능동)",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000726",
+    "STATION_NAME": "어린이대공원(세종대)",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000727",
+    "STATION_NAME": "건대입구",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000728",
+    "STATION_NAME": "뚝섬유원지",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000729",
+    "STATION_NAME": "청담",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000730",
+    "STATION_NAME": "강남구청",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000731",
+    "STATION_NAME": "학동",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000732",
+    "STATION_NAME": "논현",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000733",
+    "STATION_NAME": "반포",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000734",
+    "STATION_NAME": "고속터미널",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000735",
+    "STATION_NAME": "내방",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000736",
+    "STATION_NAME": "총신대입구(이수)",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000737",
+    "STATION_NAME": "남성",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000738",
+    "STATION_NAME": "숭실대입구(살피재)",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000739",
+    "STATION_NAME": "상도(중앙대앞)",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000740",
+    "STATION_NAME": "장승배기",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000741",
+    "STATION_NAME": "신대방삼거리",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000742",
+    "STATION_NAME": "보라매",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000743",
+    "STATION_NAME": "신풍",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000744",
+    "STATION_NAME": "대림",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000745",
+    "STATION_NAME": "남구로",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000746",
+    "STATION_NAME": "가산디지털단지",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000747",
+    "STATION_NAME": "철산",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000748",
+    "STATION_NAME": "광명사거리",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000749",
+    "STATION_NAME": "천왕",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000750",
+    "STATION_NAME": "온수",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000751",
+    "STATION_NAME": "까치울",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000752",
+    "STATION_NAME": "부천종합운동장",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000753",
+    "STATION_NAME": "춘의",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000754",
+    "STATION_NAME": "신중동",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000755",
+    "STATION_NAME": "부천시청",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000756",
+    "STATION_NAME": "상동",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000757",
+    "STATION_NAME": "삼산체육관",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000758",
+    "STATION_NAME": "굴포천",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000759",
+    "STATION_NAME": "부평구청",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000760",
+    "STATION_NAME": "산곡",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1007",
+    "STATION_CODE": "1007000761",
+    "STATION_NAME": "석남",
+    "SUBWAY_NAME": "7호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000804",
+    "STATION_NAME": "별내",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000805",
+    "STATION_NAME": "다산",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000806",
+    "STATION_NAME": "동구릉",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000807",
+    "STATION_NAME": "구리",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000808",
+    "STATION_NAME": "장자호수공원",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000809",
+    "STATION_NAME": "암사역사공원",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000810",
+    "STATION_NAME": "암사",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000811",
+    "STATION_NAME": "천호(풍납토성)",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000812",
+    "STATION_NAME": "강동구청",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000813",
+    "STATION_NAME": "몽촌토성(평화의문)",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000814",
+    "STATION_NAME": "잠실",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000815",
+    "STATION_NAME": "석촌",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000816",
+    "STATION_NAME": "송파",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000817",
+    "STATION_NAME": "가락시장",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000818",
+    "STATION_NAME": "문정",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000819",
+    "STATION_NAME": "장지",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000820",
+    "STATION_NAME": "복정",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000821",
+    "STATION_NAME": "남위례",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000822",
+    "STATION_NAME": "산성",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000823",
+    "STATION_NAME": "남한산성입구(성남법원,검찰청)",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000824",
+    "STATION_NAME": "단대오거리",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000825",
+    "STATION_NAME": "신흥",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000826",
+    "STATION_NAME": "수진",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1008",
+    "STATION_CODE": "1008000827",
+    "STATION_NAME": "모란",
+    "SUBWAY_NAME": "8호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000901",
+    "STATION_NAME": "개화",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000902",
+    "STATION_NAME": "김포공항",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000903",
+    "STATION_NAME": "공항시장",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000904",
+    "STATION_NAME": "신방화",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000905",
+    "STATION_NAME": "마곡나루",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000906",
+    "STATION_NAME": "양천향교",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000907",
+    "STATION_NAME": "가양",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000908",
+    "STATION_NAME": "증미",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000909",
+    "STATION_NAME": "등촌",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000910",
+    "STATION_NAME": "염창",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000911",
+    "STATION_NAME": "신목동",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000912",
+    "STATION_NAME": "선유도",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000913",
+    "STATION_NAME": "당산",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000914",
+    "STATION_NAME": "국회의사당",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000915",
+    "STATION_NAME": "여의도",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000916",
+    "STATION_NAME": "샛강",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000917",
+    "STATION_NAME": "노량진",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000918",
+    "STATION_NAME": "노들",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000919",
+    "STATION_NAME": "흑석",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000920",
+    "STATION_NAME": "동작",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000921",
+    "STATION_NAME": "구반포",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000922",
+    "STATION_NAME": "신반포",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000923",
+    "STATION_NAME": "고속터미널",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000924",
+    "STATION_NAME": "사평",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000925",
+    "STATION_NAME": "신논현",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000926",
+    "STATION_NAME": "언주",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000927",
+    "STATION_NAME": "선정릉",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000928",
+    "STATION_NAME": "삼성중앙",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000929",
+    "STATION_NAME": "봉은사",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000930",
+    "STATION_NAME": "종합운동장",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000931",
+    "STATION_NAME": "삼전",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000932",
+    "STATION_NAME": "석촌고분",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000933",
+    "STATION_NAME": "석촌",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000934",
+    "STATION_NAME": "송파나루",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000935",
+    "STATION_NAME": "한성백제",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000936",
+    "STATION_NAME": "올림픽공원",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000937",
+    "STATION_NAME": "둔촌오륜",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1009",
+    "STATION_CODE": "1009000938",
+    "STATION_NAME": "중앙보훈병원",
+    "SUBWAY_NAME": "9호선"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000346",
+    "STATION_NAME": "운정중앙",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000347",
+    "STATION_NAME": "킨텍스",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000348",
+    "STATION_NAME": "대곡",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000350",
+    "STATION_NAME": "연신내",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000351",
+    "STATION_NAME": "서울",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000353",
+    "STATION_NAME": "수서",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000354",
+    "STATION_NAME": "성남",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000355",
+    "STATION_NAME": "구성",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1032",
+    "STATION_CODE": "1032000356",
+    "STATION_NAME": "동탄",
+    "SUBWAY_NAME": "GTX-A"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075110",
+    "STATION_NAME": "용산",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075111",
+    "STATION_NAME": "이촌",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075112",
+    "STATION_NAME": "서빙고",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075113",
+    "STATION_NAME": "한남",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075114",
+    "STATION_NAME": "옥수",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075115",
+    "STATION_NAME": "응봉",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075116",
+    "STATION_NAME": "왕십리",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075117",
+    "STATION_NAME": "청량리",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075118",
+    "STATION_NAME": "회기",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075119",
+    "STATION_NAME": "중랑",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075120",
+    "STATION_NAME": "상봉",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075121",
+    "STATION_NAME": "망우",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075122",
+    "STATION_NAME": "양원",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075123",
+    "STATION_NAME": "구리",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075124",
+    "STATION_NAME": "도농",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075125",
+    "STATION_NAME": "양정",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075126",
+    "STATION_NAME": "덕소",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075127",
+    "STATION_NAME": "도심",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075128",
+    "STATION_NAME": "팔당",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075129",
+    "STATION_NAME": "운길산",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075130",
+    "STATION_NAME": "양수",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075131",
+    "STATION_NAME": "신원",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075132",
+    "STATION_NAME": "국수",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075133",
+    "STATION_NAME": "아신",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075134",
+    "STATION_NAME": "오빈",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075135",
+    "STATION_NAME": "양평",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075136",
+    "STATION_NAME": "원덕",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075137",
+    "STATION_NAME": "용문",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075138",
+    "STATION_NAME": "지평",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075312",
+    "STATION_NAME": "공덕",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075313",
+    "STATION_NAME": "서강대",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075314",
+    "STATION_NAME": "홍대입구",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075315",
+    "STATION_NAME": "가좌",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075316",
+    "STATION_NAME": "디지털미디어시티",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075317",
+    "STATION_NAME": "수색",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075318",
+    "STATION_NAME": "한국항공대",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075319",
+    "STATION_NAME": "강매",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075320",
+    "STATION_NAME": "행신",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075321",
+    "STATION_NAME": "능곡",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075322",
+    "STATION_NAME": "대곡",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075323",
+    "STATION_NAME": "곡산",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075324",
+    "STATION_NAME": "백마",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075325",
+    "STATION_NAME": "풍산",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075326",
+    "STATION_NAME": "일산",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075327",
+    "STATION_NAME": "탄현",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075328",
+    "STATION_NAME": "야당",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075329",
+    "STATION_NAME": "운정",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075330",
+    "STATION_NAME": "금릉",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075331",
+    "STATION_NAME": "금촌",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075333",
+    "STATION_NAME": "월롱",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075334",
+    "STATION_NAME": "파주",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075335",
+    "STATION_NAME": "문산",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075336",
+    "STATION_NAME": "운천",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075337",
+    "STATION_NAME": "임진강",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063075826",
+    "STATION_NAME": "효창공원앞",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063080312",
+    "STATION_NAME": "신촌(경의중앙선)",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1063",
+    "STATION_CODE": "1063080313",
+    "STATION_NAME": "서울",
+    "SUBWAY_NAME": "경의중앙선"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006501",
+    "STATION_NAME": "서울",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006502",
+    "STATION_NAME": "공덕",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006503",
+    "STATION_NAME": "홍대입구",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006504",
+    "STATION_NAME": "디지털미디어시티",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006505",
+    "STATION_NAME": "김포공항",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006506",
+    "STATION_NAME": "계양",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006507",
+    "STATION_NAME": "검암",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006508",
+    "STATION_NAME": "운서",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006509",
+    "STATION_NAME": "공항화물청사",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006510",
+    "STATION_NAME": "인천공항1터미널",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065006511",
+    "STATION_NAME": "인천공항2터미널",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065065042",
+    "STATION_NAME": "마곡나루",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065065071",
+    "STATION_NAME": "청라국제도시",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1065",
+    "STATION_CODE": "1065065072",
+    "STATION_NAME": "영종",
+    "SUBWAY_NAME": "공항철도"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080116",
+    "STATION_NAME": "청량리",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080117",
+    "STATION_NAME": "회기",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080118",
+    "STATION_NAME": "중랑",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080119",
+    "STATION_NAME": "광운대",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080120",
+    "STATION_NAME": "상봉",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080121",
+    "STATION_NAME": "망우",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080122",
+    "STATION_NAME": "신내",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080123",
+    "STATION_NAME": "갈매",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080124",
+    "STATION_NAME": "별내",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080125",
+    "STATION_NAME": "퇴계원",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080126",
+    "STATION_NAME": "사릉",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080127",
+    "STATION_NAME": "금곡",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080128",
+    "STATION_NAME": "평내호평",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080129",
+    "STATION_NAME": "천마산",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080130",
+    "STATION_NAME": "마석",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080131",
+    "STATION_NAME": "대성리",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080132",
+    "STATION_NAME": "청평",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080133",
+    "STATION_NAME": "상천",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080134",
+    "STATION_NAME": "가평",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080135",
+    "STATION_NAME": "굴봉산",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080136",
+    "STATION_NAME": "백양리",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080137",
+    "STATION_NAME": "강촌",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080138",
+    "STATION_NAME": "김유정",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080139",
+    "STATION_NAME": "남춘천",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1067",
+    "STATION_CODE": "1067080140",
+    "STATION_NAME": "춘천",
+    "SUBWAY_NAME": "경춘선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075209",
+    "STATION_NAME": "청량리",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075210",
+    "STATION_NAME": "왕십리",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075211",
+    "STATION_NAME": "서울숲",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075212",
+    "STATION_NAME": "압구정로데오",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075213",
+    "STATION_NAME": "강남구청",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075214",
+    "STATION_NAME": "선정릉",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075215",
+    "STATION_NAME": "선릉",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075216",
+    "STATION_NAME": "한티",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075217",
+    "STATION_NAME": "도곡",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075218",
+    "STATION_NAME": "구룡",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075219",
+    "STATION_NAME": "개포동",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075220",
+    "STATION_NAME": "대모산입구",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075221",
+    "STATION_NAME": "수서",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075222",
+    "STATION_NAME": "복정",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075223",
+    "STATION_NAME": "가천대",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075224",
+    "STATION_NAME": "태평",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075225",
+    "STATION_NAME": "모란",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075226",
+    "STATION_NAME": "야탑",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075227",
+    "STATION_NAME": "이매",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075228",
+    "STATION_NAME": "서현",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075229",
+    "STATION_NAME": "수내",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075230",
+    "STATION_NAME": "정자",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075231",
+    "STATION_NAME": "미금",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075232",
+    "STATION_NAME": "오리",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075233",
+    "STATION_NAME": "죽전",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075234",
+    "STATION_NAME": "보정",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075235",
+    "STATION_NAME": "구성",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075236",
+    "STATION_NAME": "신갈",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075237",
+    "STATION_NAME": "기흥",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075238",
+    "STATION_NAME": "상갈",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075239",
+    "STATION_NAME": "청명",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075240",
+    "STATION_NAME": "영통",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075241",
+    "STATION_NAME": "망포",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075242",
+    "STATION_NAME": "매탄권선",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075243",
+    "STATION_NAME": "수원시청",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075244",
+    "STATION_NAME": "매교",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075245",
+    "STATION_NAME": "수원",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075246",
+    "STATION_NAME": "고색",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075247",
+    "STATION_NAME": "오목천",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075248",
+    "STATION_NAME": "어천",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075249",
+    "STATION_NAME": "야목",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075250",
+    "STATION_NAME": "사리",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075251",
+    "STATION_NAME": "한대앞",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075252",
+    "STATION_NAME": "중앙",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075253",
+    "STATION_NAME": "고잔",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075254",
+    "STATION_NAME": "초지",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075255",
+    "STATION_NAME": "안산",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075256",
+    "STATION_NAME": "신길온천",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075257",
+    "STATION_NAME": "정왕",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075258",
+    "STATION_NAME": "오이도",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075259",
+    "STATION_NAME": "달월",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075260",
+    "STATION_NAME": "월곶",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075261",
+    "STATION_NAME": "소래포구",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075262",
+    "STATION_NAME": "인천논현",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075263",
+    "STATION_NAME": "호구포",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075264",
+    "STATION_NAME": "남동인더스파크",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075265",
+    "STATION_NAME": "원인재",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075266",
+    "STATION_NAME": "연수",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075267",
+    "STATION_NAME": "송도",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075268",
+    "STATION_NAME": "인하대",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075269",
+    "STATION_NAME": "숭의",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075270",
+    "STATION_NAME": "신포",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1075",
+    "STATION_CODE": "1075075271",
+    "STATION_NAME": "인천",
+    "SUBWAY_NAME": "수인분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077000684",
+    "STATION_NAME": "신사",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077000685",
+    "STATION_NAME": "논현",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077000686",
+    "STATION_NAME": "신논현",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077000687",
+    "STATION_NAME": "강남",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077000688",
+    "STATION_NAME": "양재",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077000689",
+    "STATION_NAME": "양재시민의숲",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006810",
+    "STATION_NAME": "청계산입구",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006811",
+    "STATION_NAME": "판교",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006812",
+    "STATION_NAME": "정자",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006813",
+    "STATION_NAME": "미금",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006814",
+    "STATION_NAME": "동천",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006815",
+    "STATION_NAME": "수지구청",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006816",
+    "STATION_NAME": "성복",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006817",
+    "STATION_NAME": "상현",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006818",
+    "STATION_NAME": "광교중앙",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1077",
+    "STATION_CODE": "1077006819",
+    "STATION_NAME": "광교",
+    "SUBWAY_NAME": "신분당선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037409",
+    "STATION_NAME": "판교",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037410",
+    "STATION_NAME": "성남",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037411",
+    "STATION_NAME": "이매",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037412",
+    "STATION_NAME": "삼동",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037413",
+    "STATION_NAME": "경기광주",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037414",
+    "STATION_NAME": "초월",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037415",
+    "STATION_NAME": "곤지암",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037416",
+    "STATION_NAME": "신둔도예촌",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037417",
+    "STATION_NAME": "이천",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037418",
+    "STATION_NAME": "부발",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037419",
+    "STATION_NAME": "세종왕릉",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1081",
+    "STATION_CODE": "1081037420",
+    "STATION_NAME": "여주",
+    "SUBWAY_NAME": "경강선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004701",
+    "STATION_NAME": "북한산우이",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004702",
+    "STATION_NAME": "솔밭공원",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004703",
+    "STATION_NAME": "4.19 민주묘지",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004704",
+    "STATION_NAME": "가오리",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004705",
+    "STATION_NAME": "화계",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004706",
+    "STATION_NAME": "삼양",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004707",
+    "STATION_NAME": "삼양사거리",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004708",
+    "STATION_NAME": "솔샘",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004709",
+    "STATION_NAME": "북한산보국문",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004710",
+    "STATION_NAME": "정릉",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004711",
+    "STATION_NAME": "성신여대입구",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004712",
+    "STATION_NAME": "보문",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1092",
+    "STATION_CODE": "1092004713",
+    "STATION_NAME": "신설동",
+    "SUBWAY_NAME": "우이신설선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004001",
+    "STATION_NAME": "일산",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004002",
+    "STATION_NAME": "풍산",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004003",
+    "STATION_NAME": "백마",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004004",
+    "STATION_NAME": "곡산",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004005",
+    "STATION_NAME": "대곡",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004006",
+    "STATION_NAME": "능곡",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004007",
+    "STATION_NAME": "김포공항",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004008",
+    "STATION_NAME": "원종",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004009",
+    "STATION_NAME": "부천종합운동장",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004010",
+    "STATION_NAME": "소사",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004011",
+    "STATION_NAME": "소새울",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004012",
+    "STATION_NAME": "시흥대야",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004013",
+    "STATION_NAME": "신천",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004014",
+    "STATION_NAME": "신현",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004016",
+    "STATION_NAME": "시흥시청",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004017",
+    "STATION_NAME": "시흥능곡",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004018",
+    "STATION_NAME": "달미",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004019",
+    "STATION_NAME": "선부",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004020",
+    "STATION_NAME": "초지",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004021",
+    "STATION_NAME": "시우",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1093",
+    "STATION_CODE": "1093004022",
+    "STATION_NAME": "원시",
+    "SUBWAY_NAME": "서해선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000401",
+    "STATION_NAME": "샛강",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000402",
+    "STATION_NAME": "대방",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000403",
+    "STATION_NAME": "서울지방병무청",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000404",
+    "STATION_NAME": "보라매",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000405",
+    "STATION_NAME": "보라매공원",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000406",
+    "STATION_NAME": "보라매병원",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000407",
+    "STATION_NAME": "당곡",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000408",
+    "STATION_NAME": "신림",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000409",
+    "STATION_NAME": "서원",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000410",
+    "STATION_NAME": "서울대벤처타운",
+    "SUBWAY_NAME": "신림선"
+  },
+  {
+    "SUBWAY_ID": "1094",
+    "STATION_CODE": "1094000411",
+    "STATION_NAME": "관악산",
+    "SUBWAY_NAME": "신림선"
+  }
+]

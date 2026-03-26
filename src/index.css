@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+@layer base {
+  * {
+    @apply box-border;
+    font-family: "Nanum Gothic", sans-serif;
+  }
+
+  body {
+    margin: 0;
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  input:focus {
+    @apply outline-none;
+  }
+}
+
+/* Loading Animation */
+@keyframes rotate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loading-text-opacity {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@layer components {
+  .loading {
+    @apply w-16 h-16 rounded-full border-2;
+    border-color: transparent #1f2937 transparent #1f2937;
+    animation: rotate-loading 1.5s linear 0s infinite normal;
+    transform-origin: 50% 50%;
+  }
+
+  .loading-text {
+    animation: loading-text-opacity 2s linear 0s infinite normal;
+    @apply text-sm font-bold opacity-0;
+  }
+}

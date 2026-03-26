@@ -2,11 +2,18 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import axios from "axios";
+import path from "path";
+import { fileURLToPath } from "url";
+
+// __filename, __dirname 직접 만들어야 함
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+const IP = process.env.IP || "0.0.0.0";
 const SEOUL_API_KEY = process.env.SEOUL_METRO_API_KEY || "sample";
 const SEOUL_API_URL = "http://swopenapi.seoul.go.kr/api/subway";
 
@@ -17,7 +24,7 @@ app.use(express.json());
 // 서울 지하철 API에서 데이터 조회
 const getMetroData = async (stationName) => {
   try {
-    const url = `${SEOUL_API_URL}/${SEOUL_API_KEY}/json/realtimeStationArrival/1/5/${encodeURIComponent(stationName)}`;
+    const url = `${SEOUL_API_URL}/${SEOUL_API_KEY}/json/realtimeStationArrival/0/30/${encodeURIComponent(stationName)}`;
 
     console.log("Requesting URL:", url);
     const response = await axios.get(url);
@@ -38,21 +45,7 @@ const getMetroData = async (stationName) => {
           message: "success",
         },
         totalCount: data.errorMessage?.total || data.realtimeArrivalList.length,
-        realtimeArrivalList: data.realtimeArrivalList.map((row) => ({
-          subwayId: row.subwayId,
-          updnLine: row.updnLine,
-          trainLineNm: row.trainLineNm,
-          statnNm: row.statnNm,
-          btrainSttus: row.btrainSttus,
-          barvlDt: row.barvlDt,
-          btrainNo: row.btrainNo,
-          bstatnNm: row.bstatnNm,
-          arvlMsg2: row.arvlMsg2,
-          arvlMsg3: row.arvlMsg3,
-          arvlCd: row.arvlCd,
-          recptnDt: row.recptnDt,
-          lstcarAt: row.lstcarAt,
-        })),
+        realtimeArrivalList: data.realtimeArrivalList,
       };
     } else {
       console.log("Response structure issue - data:", data);
@@ -111,6 +104,14 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
-app.listen(PORT, () => {
-  console.log(`Metro API Server running on http://localhost:${PORT}`);
+// 🔹 정적 파일 (프론트)
+app.use(express.static(path.join(__dirname, "dist")));
+
+// 🔹 SPA 라우팅 처리 (중요)
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "dist/index.html"));
+});
+
+app.listen(PORT, IP, () => {
+  console.log(`Metro API Server running on http://${IP}:${PORT}`);
 });
