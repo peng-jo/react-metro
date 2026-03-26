@@ -104,12 +104,12 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
-// 🔹 정적 파일 (프론트)
-app.use(express.static(path.join(__dirname, "dist")));
+// 정적 파일 (프론트)
+app.use(express.static(path.join(__dirname, "../dist")));
 
-// 🔹 SPA 라우팅 처리 (중요)
+//  SPA 라우팅 처리
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "dist/index.html"));
+  res.sendFile(path.join(__dirname, "../dist/index.html"));
 });
 
 app.listen(PORT, IP, () => {
