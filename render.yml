@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: react-metro
+    runtime: node
+    region: singapore
+    plan: free
+
+    buildCommand: |
+      npm install
+      npm run build
+      cd server && npm install
+    startCommand: cd server && npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SEOUL_METRO_API_KEY
+        sync: false
+      - key: VITE_API_BASE_URL
+        value: /metro
+
+    autoDeploy: true
