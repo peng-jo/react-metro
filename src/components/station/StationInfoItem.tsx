@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-import { StationInfo, StationTopology, GraphNode } from "@/types/stationType";
+import { StationInfo, GraphNode } from "@/types/stationType";
 import InfoSide from "./StationInfoItemSide";
 import { metroEngine } from "@/core/metroEngine";
 

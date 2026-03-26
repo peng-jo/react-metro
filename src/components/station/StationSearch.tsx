@@ -21,7 +21,7 @@ const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
     const filterdNames = stationNames.filter((stationName) => {
       return matchKorean(stationName, keyword);
     });
-    console.debug("filterdNames", filterdNames);
+
     if (!filterdNames || keyword === "") {
       return [];
     }
