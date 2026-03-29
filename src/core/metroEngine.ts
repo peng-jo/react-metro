@@ -108,9 +108,8 @@ class MetroEngine {
 
   getstationGraphNodes(code: string, direction: string): GraphNode<string>[] {
     const key = code + direction;
-    const node = this.stationGraph.get(key) ?? [];
-
-    return node;
+    const nodes = this.stationGraph.get(key) ?? [];
+    return nodes;
   }
 
   getStationNames() {
