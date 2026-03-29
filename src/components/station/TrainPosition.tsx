@@ -28,7 +28,9 @@ const TrainPosition: React.FC<TrainPositionProps> = ({
   const totalLength = cumulativeDistances.length || 1; // 0 방지
 
   return (
-    <div className="w-full overflow-x-auto">
+    <div
+      className={`${allStations.length === 0 ? "hidden" : "block"} w-full overflow-x-auto`}
+    >
       <div className="min-w-max flex justify-end">
         <svg
           width={totalLength * DISTANCE_SPACE + "px"}

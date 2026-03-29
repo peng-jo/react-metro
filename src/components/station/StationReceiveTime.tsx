@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
+import SpinIcon from "./icon/SpinIcon";
 
 type Props = {
   reiciveDataTime: Date | null;
@@ -51,35 +52,25 @@ const StationReceiveTime: React.FC<Props> = ({
   }
 
   return (
-    <div className="flex flex-col bg-white rounded-lg p-6">
+    <div className="flex flex-col bg-white rounded-lg pl-6">
       <div className="flex items-center">
-        <p className="text-sm font-semibold text-slate-700">데이터 수신 시간</p>
+        <span className="text-sm font-semibold text-slate-700">
+          데이터 수신 시간 :
+        </span>
+        <div className="flex ml-2">
+          <span className="text-lg font-bold text-slate-900">
+            {calcDiffTime(reiciveDataTime) || "로딩중..."}
+          </span>
+        </div>
         <button
           onClick={() => {
             onRefreshLoading(true);
           }}
-          className="p-2 text-blue-600 disabled:text-slate-300 disabled:cursor-not-allowed rounded-lg"
+          className="p-2 cursor-pointer text-blue-600 disabled:text-slate-300 disabled:cursor-not-allowed rounded-lg"
           title="데이터 새로고침"
         >
-          <svg
-            className={`w-6 h-6 inline-block ${loading ? "animate-spin" : ""}`}
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-            />
-          </svg>
+          <SpinIcon loading={loading} speed="fast" />
         </button>
-      </div>
-      <div className="flex">
-        <p className="text-lg font-bold text-slate-900">
-          {calcDiffTime(reiciveDataTime) || "로딩중..."}
-        </p>
       </div>
     </div>
   );

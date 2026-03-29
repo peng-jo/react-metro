@@ -13,9 +13,9 @@ export default defineConfig({
         enabled: true, // 개발에서도 PWA 테스트
       },
       manifest: {
-        name: "My App",
-        short_name: "App",
-        description: "My Vite PWA App",
+        name: "지하철 도착정보",
+        short_name: "지하철 도착정보",
+        description: "지하철 도착정보",
         theme_color: "#ffffff",
         background_color: "#ffffff",
         display: "standalone",

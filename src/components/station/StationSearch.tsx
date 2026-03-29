@@ -3,13 +3,8 @@ import React, { useMemo, useState } from "react";
 
 import { getChoseong } from "es-hangul";
 
-interface StationInfo {
-  station_name: string;
-  line_number: string;
-}
-
 interface SearchProps {
-  onChangeStaion: (value: string) => void; // 🔥 string으로 바꾸는게 실무적으로 좋음
+  onChangeStaion: (value: string) => void;
 }
 
 const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
@@ -65,7 +60,7 @@ const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
   }
 
   return (
-    <div className="bg-white rounded-lg p-6 mb-8">
+    <div className="rounded-lg p-6 mb-8">
       <div className="flex items-center gap-3">
         <div className="flex-1 relative">
           <input
@@ -78,13 +73,13 @@ const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
           />
 
           {open && filteredStations.length > 0 && (
-            <ul className="absolute z-10 w-full bg-white border rounded-lg mt-1 max-h-48 overflow-y-auto">
+            <ul className="bg-white absolute z-10 w-full border rounded-lg mt-1 max-h-48 overflow-y-auto">
               {filteredStations.map((stations) => {
                 const stationName = stations[0].station_name;
                 return (
                   <li
                     key={stations[0]?.station_name}
-                    className="px-4 py-2 hover:bg-slate-100 cursor-pointer flex items-center justify-between"
+                    className="px-4 py-2 cursor-pointer flex items-center justify-between hover:bg-zinc-300"
                     onClick={() => handleSelect(stationName)}
                   >
                     {/* 역명 */}
@@ -109,7 +104,7 @@ const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
 
         <button
           onClick={handleSearch}
-          className="bg-blue-500 text-white p-3 rounded-lg"
+          className="bg-blue-500 text-white p-3 rounded-lg cursor-pointer"
         >
           <svg
             className="w-5 h-5"

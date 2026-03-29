@@ -11,6 +11,7 @@ import {
 } from "@/types/stationType";
 
 import { metroEngine } from "@/core/metroEngine";
+import SpinIcon from "./icon/SpinIcon";
 
 const Arrive: React.FC<{
   arrivals: RealtimeArrivalInfo[];
@@ -85,30 +86,22 @@ const Arrive: React.FC<{
 
   return (
     <React.Fragment>
-      {/* Table View for Desktop */}
       <div className="overflow-x-auto">
-        <div className="bg-white rounded-lg shadow overflow-hidden border border-slate-200">
+        <div className="bg-white rounded-lg shadow overflow-hidden border border-slate-200 overflow-x-auto">
           {/* Table */}
           {arrivals.length > 0 ? (
-            <table className="w-full">
+            <table className="w-full border">
               <thead>
-                <tr className="bg-slate-100 border-b border-slate-200">
-                  <th className="px-3 py-3 text-sm font-semibold text-slate-900">
+                <tr className="bg-slate-100 border-b border-slate-200 text-slate-900 font-semibold">
+                  <th className="hidden md:block md:px-3 py-2 min-w-10">
                     상하행선
                   </th>
-                  <th className="px-6 py-3 text-sm font-semibold text-slate-900">
-                    종착역
-                  </th>
-                  <th className="px-3 py-3 text-sm font-semibold text-slate-900">
-                    위치
-                  </th>
-
-                  <th className="px-6 py-3 text-sm font-semibold text-slate-900">
+                  <th className="py-2 md:px-6 min-w-30">종착역</th>
+                  <th className="md:px-3 py-2 min-w-20">위치</th>
+                  <th className="hidden md:block md:px-6 py-2 min-w-20">
                     상태
                   </th>
-                  <th className="px-6 py-3 text-sm font-semibold text-slate-900">
-                    현재 위치
-                  </th>
+                  <th className="md:px-6 py-2 min-w-30">현재 위치</th>
                 </tr>
               </thead>
               <tbody>
@@ -116,24 +109,24 @@ const Arrive: React.FC<{
                   const status = getArrivalText(arrive.arvlCd);
                   return (
                     <tr
-                      key={index}
+                      key={arrive.btrainNo}
                       className="border-b border-slate-200 text-center"
                     >
                       {/* 상하행선 */}
-                      <td className="px-6 py-4 text-sm font-medium text-slate-900">
+                      <td className="hidden md:block font-medium text-slate-900 py-2">
                         {arrive.updnLine}
                       </td>
                       {/* 종착역 */}
-                      <td className="px-6 py-4 text-sm font-medium text-slate-900">
+                      <td className="font-medium text-slate-900 py-2">
                         {arrive.bstatnNm} 행
                       </td>
                       {/* 위치 */}
-                      <td className="px-6 py-4 text-sm font-medium text-slate-900">
+                      <td className="font-medium text-slate-900 py-2">
                         {getStationsAheadText(station, arrive.arvlMsg3)}
                       </td>
 
                       {/* 상태 */}
-                      <td className="px-6 py-4">
+                      <td className="hidden md:block py-2">
                         <span
                           className={`text-xs font-semibold px-2.5 py-1 rounded-full inline-block ${status.color}`}
                         >
@@ -141,7 +134,7 @@ const Arrive: React.FC<{
                         </span>
                       </td>
                       {/* 현재 위치 */}
-                      <td className="px-6 py-4 text-sm text-slate-700">
+                      <td className="  text-slate-700 py-2">
                         {arrive.arvlMsg3}
                       </td>
                     </tr>
@@ -152,16 +145,11 @@ const Arrive: React.FC<{
           ) : (
             <div className="px-6 py-12 text-center">
               <div className="flex flex-col items-center justify-center gap-4">
-                <div
-                  className="loading"
-                  style={{
-                    borderColor: "transparent #3b82f6 transparent #3b82f6",
-                  }}
-                ></div>
-                <p className="text-slate-600 font-medium text-lg">
-                  데이터 로딩 중...
-                </p>
-                <p className="text-slate-500 text-sm">
+                <span className="text-slate-600 font-medium text-lg">
+                  데이터 로딩 중 <SpinIcon loading={true} speed="slow" />
+                </span>
+
+                <p className="text-slate-500 ">
                   운행 시간이 아니거나 API가 해당 역을 지원하지 않을 수 있습니다
                 </p>
               </div>

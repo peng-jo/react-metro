@@ -1,5 +1,9 @@
 @import "tailwindcss";
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
 
 @layer base {
   * {
@@ -9,7 +13,7 @@
 
   body {
     margin: 0;
-    @apply bg-white text-gray-900 antialiased;
+    @apply text-gray-900 antialiased;
   }
 
   input:focus {

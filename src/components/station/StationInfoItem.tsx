@@ -32,7 +32,7 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
     >
       {/* band background */}
       <div
-        className="w-full h-16 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
+        className="w-full md:h-16 h-14 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
         style={{ backgroundColor: station?.color || "#999" }}
       />
       <div className="flex w-full gap-y-8 my-8 z-1">
@@ -40,8 +40,8 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
         <InfoSide station={prevStation} direction="left" useArrowIcon={false} />
 
         <div
-          className="flex items-center bg-white rounded-full justify-center border-6 relative py-2"
-          style={{ minWidth: 300, borderColor: color }}
+          className="flex items-center bg-white rounded-full justify-center border-6 relative py-2 md:min-w-md min-w-20 p-2"
+          style={{ borderColor: color }}
         >
           {/* Left badge overlaps */}
           <div className="hidden lg:block z-10 absolute left-5">
@@ -54,11 +54,9 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
           </div>
 
           {/* Text content */}
-          <div className="flex flex-col text-center">
-            <div className="text-2xl font-extrabold text-slate-900">
-              {stationName}
-            </div>
-            <div className="text-sm text-slate-900 font-extrabold mt-0.5">
+          <div className="flex flex-col justify-center text-center md:text-2xl  ">
+            <div className="font-extrabold text-slate-900">{stationName}</div>
+            <div className="hidden md:block text-slate-900 font-extrabold mt-0.5">
               {stationNameEng}
             </div>
             {(stationNameChn || stationNameJpn) && (

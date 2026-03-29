@@ -18,14 +18,14 @@ const InfoSide: React.FC<InfoSideProps> = ({
 }) => {
   return (
     <div
-      className="flex flex-1 flex-row items-center self-center gap-2.5 px-2.5 text-white font-semibold text-sm text-center "
+      className="flex flex-1 flex-row items-center self-center gap-2.5 px-2.5 text-white font-semibold  text-center"
       style={{
         justifyContent: direction === "right" ? "start" : "end",
       }}
     >
       {useArrowIcon && <ArrowIcon />}
       <div
-        className="w-10 h-10 rounded-full flex items-center justify-center text-white font-extrabold bg-white"
+        className="hidden md:flex w-10 h-10 rounded-full items-center justify-center  text-white font-extrabold bg-white"
         style={{ color: station?.color || "#999" }}
       >
         {station?.front_code}
