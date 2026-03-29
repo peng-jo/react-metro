@@ -154,8 +154,10 @@ function filterByCurrentStation(
       terminateNode,
     );
 
+    const exceptLineNumberOrigin = "02호선"; // 2호선은 순환선 이므로 예외처리
     const hasPrevious = ahead !== null;
-    const hasTerminateNodePrevious = terminteAhead !== null;
+    const hasTerminateNodePrevious =
+      exceptLineNumberOrigin === lineNumberOrigin || terminteAhead !== null;
 
     return hasPrevious && hasTerminateNodePrevious;
   });
