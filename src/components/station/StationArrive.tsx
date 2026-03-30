@@ -70,8 +70,7 @@ const Arrive: React.FC<{
       return "";
     }
     const targetStationCode = targetStation?.station_code;
-
-    const ahead = metroEngine.findAhead(targetStationCode, baseNode, 0);
+    const ahead = metroEngine.findAheadByNode(targetStationCode, baseNode, 0);
 
     if (ahead === 0) {
       return "당역";

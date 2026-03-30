@@ -24,14 +24,14 @@ class MetroEngine {
     subwayMasterData: SubwaymasterData[],
   ) {
     allStations.forEach((station) => {
-      this.initStationMap(station);
-      this.initGraph(station);
-      this.initSearchIndex(station);
+      this.addStationMap(station);
+      this.addGraph(station);
+      this.addSearchIndex(station);
     });
     this.initSubwayMasterData(subwayMasterData);
   }
 
-  private initSearchIndex(station: StationTopology) {
+  private addSearchIndex(station: StationTopology) {
     const name = station.station_name;
     const stationCode = station.station_code;
 
@@ -41,7 +41,7 @@ class MetroEngine {
     this.stationNameCodeMap.get(name)!.add(stationCode);
   }
 
-  private initStationMap(station: StationTopology) {
+  private addStationMap(station: StationTopology) {
     // function makeNode(station: StationTopology) {
     //   return {
     //     prev: station.prev,
@@ -65,17 +65,18 @@ class MetroEngine {
     }
   }
 
-  private initGraph(edge: StationTopology) {
+  private addGraph(edge: StationTopology) {
     const code = edge.station_code;
     const direction = edge.direction;
     const key = code + direction;
-    if (!this.stationGraph.has(key)) {
+    if (this.stationGraph.has(key) === false) {
       this.stationGraph.set(key, []);
     }
 
-    const stationGraph = this.stationGraph.get(key);
+    const stationGraph = this.stationGraph.get(key)!;
     const uniqueKey = edge.prev + edge.next + edge.direction;
-    stationGraph?.push({
+    //양 갈래길 일 경우
+    stationGraph.push({
       key: uniqueKey,
       prev: edge.prev,
       current: code,
@@ -101,9 +102,7 @@ class MetroEngine {
     }
     return Array.from(stationCodes)
       ?.map((code) => this.getStationInfoByCode(code))
-      .filter(
-        (station) => station?.line_number_origin === lineNumberOrigin,
-      )?.[0];
+      .find((station) => station?.line_number_origin === lineNumberOrigin);
   }
 
   getstationGraphNodes(code: string, direction: string): GraphNode<string>[] {
@@ -124,34 +123,43 @@ class MetroEngine {
     return this.subwayMasterMap.get(code);
   }
 
-  findAhead(
+  findAheadByNode(
     targetStationCode = "",
     currentNode: GraphNode<string>,
     ahead = 0,
   ): number | null {
-    const previousCode = currentNode.prev;
-    const currentCode = currentNode.prev;
-    const direction = currentNode.direction ?? "";
-
-    if (previousCode === "") {
-      return null;
-    }
-    if (targetStationCode === previousCode) {
-      return ahead + 1;
-    }
-
-    if (currentCode === targetStationCode || !direction) {
+    if (currentNode.current === targetStationCode) {
       return 0;
     }
-    const prevNodes = this.getstationGraphNodes(previousCode, direction);
+    const visited = new Set<string>();
+    const stack: { node: GraphNode<string>; distance: number }[] = [];
+    stack.push({ node: currentNode, distance: ahead });
 
-    const prevNode = prevNodes.find((node) => node.current === previousCode);
-
-    if (!prevNode) {
-      return ahead;
+    while (stack.length > 0) {
+      const { node, distance } = stack.pop()!;
+      const previousCode = node.prev;
+      if (previousCode === "") {
+        continue;
+      }
+      if (previousCode === targetStationCode) {
+        return distance + 1;
+      }
+      const prevNodes = this.getstationGraphNodes(
+        previousCode,
+        node.direction ?? "",
+      );
+      const filteredPrevNodes = prevNodes.filter(
+        (n) => n.current === previousCode && n.direction === node.direction,
+      );
+      for (const prevNode of filteredPrevNodes) {
+        if (!visited.has(prevNode.prev)) {
+          visited.add(prevNode.prev);
+          stack.push({ node: prevNode, distance: distance + 1 });
+        }
+      }
     }
 
-    return this.findAhead(targetStationCode, prevNode, ahead + 1);
+    return null;
   }
 }
 

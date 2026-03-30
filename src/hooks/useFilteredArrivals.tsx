@@ -11,12 +11,12 @@ import lineInfo from "@data/lineInfo.json";
 import { metroEngine } from "@/core/metroEngine";
 
 export function useFilteredArrivals(
-  station: StationInfo | undefined,
+  currentStation: StationInfo | undefined,
   arrivals: RealtimeArrivalInfo[],
 ) {
-  const originLineNumber = station?.line_number_origin ?? "";
+  const originLineNumber = currentStation?.line_number_origin ?? "";
   const lineInfoData = lineInfo as SubwayLineInfo[];
-  const stationCode = station?.station_code ?? "";
+  const stationCode = currentStation?.station_code ?? "";
 
   const upNodes = useMemo(
     () => metroEngine.getstationGraphNodes(stationCode, "up"),
@@ -39,10 +39,10 @@ export function useFilteredArrivals(
         filterByCurrentStation(
           filterArrivalsByDirection(filterdArrivalsByLine, node.direction),
           node,
-          station,
+          currentStation,
         ),
       ),
-    [upNodes, filterdArrivalsByLine, station],
+    [upNodes, filterdArrivalsByLine, currentStation],
   );
 
   const downFiltered = useMemo(
@@ -51,10 +51,10 @@ export function useFilteredArrivals(
         filterByCurrentStation(
           filterArrivalsByDirection(filterdArrivalsByLine, node.direction),
           node,
-          station,
+          currentStation,
         ),
       ),
-    [downNodes, filterdArrivalsByLine, station],
+    [downNodes, filterdArrivalsByLine, currentStation],
   );
 
   const upStationsList = useMemo(
@@ -113,53 +113,71 @@ function filterArrivalsByDirection(
 
 function filterByCurrentStation(
   arrivals: RealtimeArrivalInfo[],
-  node: GraphNode<string>,
-  station: StationInfo | undefined,
+  currentNode: GraphNode<string>,
+  currentStation: StationInfo | undefined,
 ) {
   return arrivals.filter((arrival) => {
-    const lineNumberOrigin = station?.line_number_origin;
-    const stationInformation = metroEngine.getStationInfo(
+    const lineNumberOrigin = currentStation?.line_number_origin;
+    const arriveStationInformation = metroEngine.getStationInfo(
       arrival.arvlMsg3,
       lineNumberOrigin,
     );
 
-    let terminateNode;
+    let terminateNodes;
 
     const terminalStation = metroEngine.getStationInfo(
       arrival.bstatnNm,
       lineNumberOrigin,
     );
 
-    if (terminalStation && node.direction) {
-      const terminateNodes = metroEngine.getstationGraphNodes(
-        terminalStation.station_code,
-        node.direction,
-      );
-      terminateNode = terminateNodes.find(
-        (n) => n.direction === node?.direction,
-      );
+    if (terminalStation && currentNode.direction) {
+      terminateNodes = metroEngine
+        .getstationGraphNodes(
+          terminalStation.station_code,
+          currentNode.direction,
+        )
+        .filter((n) => n.direction === currentNode?.direction);
     } else {
       return false;
     }
 
-    if (!terminateNode) {
+    if (!terminateNodes) {
       return false;
     }
 
-    const targetStationCode = stationInformation?.station_code ?? "";
-    const targetNextStationCode = node.next;
-    const ahead = metroEngine.findAhead(targetStationCode, node);
-    const terminteAhead = metroEngine.findAhead(
-      targetNextStationCode,
-      terminateNode,
+    const arriveStationCode = arriveStationInformation?.station_code ?? "";
+    const nextStationCode = currentNode.next;
+    const prevStationCode = currentNode.prev;
+
+    const arriveStationAhead = metroEngine.findAheadByNode(
+      arriveStationCode,
+      currentNode,
     );
+    //전역이 지선일 경우 확인용도
+    const arriveStationPrevAhead = metroEngine.findAheadByNode(
+      prevStationCode,
+      currentNode,
+    );
+    //당역도착
+    if (arriveStationAhead === 0) {
+      return true;
+    }
+
+    let terminteAhead = null;
+    terminateNodes.forEach((terminateNode) => {
+      const ahead = metroEngine.findAheadByNode(nextStationCode, terminateNode);
+      if (ahead !== null) {
+        terminteAhead = ahead;
+      }
+    });
 
     const exceptLineNumberOrigin = "02호선"; // 2호선은 순환선 이므로 예외처리
-    const hasPrevious = ahead !== null;
-    const hasTerminateNodePrevious =
+    const hasCurrentStation = arriveStationAhead !== null;
+    const hasPrevStation = arriveStationPrevAhead !== null;
+    const hasTerminateStation =
       exceptLineNumberOrigin === lineNumberOrigin || terminteAhead !== null;
 
-    return hasPrevious && hasTerminateNodePrevious;
+    return hasCurrentStation && hasPrevStation && hasTerminateStation;
   });
 }
 
@@ -188,7 +206,7 @@ function getprevStationsList(
 
         return {
           stationInfo: stationInfo,
-          ahead: metroEngine.findAhead(targetStationCode, node),
+          ahead: metroEngine.findAheadByNode(targetStationCode, node),
         };
       })
       .reduce(
