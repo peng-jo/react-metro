@@ -6,7 +6,7 @@ type SpinIconProps = {
 const SpinIcon = ({ loading, speed = "slow" }: SpinIconProps) => {
   return (
     <svg
-      className={`w-6 h-6 hover:animate-spin inline-block ${loading ? "animate-spin" : ""}`}
+      className={`w-6 h-6 inline-block ${loading ? "animate-spin" : ""}`}
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
