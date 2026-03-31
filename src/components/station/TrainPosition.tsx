@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import TrainIcon from "./icon/TrainIcon";
 
 interface UpcomingStation {
@@ -16,20 +16,26 @@ const TrainPosition: React.FC<TrainPositionProps> = ({
   upcomingStations,
   lineColor,
 }) => {
-  const allStations = [...upcomingStations];
-
   // 누적 거리 계산
   const DISTANCE_SPACE = 100;
-  const cumulativeDistances = allStations.map((_, i) =>
-    allStations
+  const cumulativeDistances = upcomingStations.map((_, i) =>
+    upcomingStations
       .slice(0, i + 1)
       .reduce((sum, s) => sum + DISTANCE_SPACE, -DISTANCE_SPACE),
   );
   const totalLength = cumulativeDistances.length || 1; // 0 방지
 
+  const ref = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (el) el.scrollLeft = el.scrollWidth; // 👉 맨 오른쪽
+  }, [upcomingStations]);
+
   return (
     <div
-      className={`${allStations.length === 0 ? "hidden" : "block"} w-full overflow-x-auto`}
+      ref={ref}
+      className={`${upcomingStations.length === 0 ? "hidden" : "block"} w-full overflow-x-auto`}
     >
       <div className="min-w-max flex justify-end">
         <svg
@@ -49,7 +55,7 @@ const TrainPosition: React.FC<TrainPositionProps> = ({
           />
 
           {/* 역 표시 */}
-          {allStations.map((station, i) => {
+          {upcomingStations.map((station, i) => {
             const x = 50 + cumulativeDistances[i];
             return (
               <g key={i}>
