@@ -33,11 +33,12 @@ export function useStation() {
         await response.json();
 
       if (status !== 500 && errorMessage.status === 200) {
+        const now = new Date();
         setStation({
           stationName,
           arrivals: realtimeArrivalList,
           searchCodes: stationCodes,
-          receiveTime: new Date(),
+          receiveTime: now,
         });
       } else {
         setError("API ERROR");

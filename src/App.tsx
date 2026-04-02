@@ -16,7 +16,7 @@ const App: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="min-h-4/6 mx-auto px-2 py-8 sm:px-6 lg:px-4 lg:max-w-7/10">
+      <main className="min-h-4/6 mx-auto px-2 sm:px-6 lg:px-4 lg:max-w-7/10">
         <Station />
       </main>
 

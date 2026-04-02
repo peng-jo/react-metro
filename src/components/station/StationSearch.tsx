@@ -2,12 +2,23 @@ import { metroEngine } from "@/core/metroEngine";
 import React, { useMemo, useState } from "react";
 
 import { getChoseong } from "es-hangul";
+import SpinIcon from "./icon/SpinIcon";
 
 interface SearchProps {
   onChangeStaion: (value: string) => void;
+  onRefreshLoading: () => void;
+  loading: boolean;
+  receiveTimeText: string;
+  scrollStatus: string;
 }
 
-const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
+const StationSearch: React.FC<SearchProps> = ({
+  onChangeStaion,
+  onRefreshLoading,
+  loading,
+  receiveTimeText,
+  scrollStatus,
+}) => {
   const [keyword, setKeyword] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -60,13 +71,17 @@ const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
   }
 
   return (
-    <div className="rounded-lg p-6 mb-8">
+    <div
+      className={`sticky top-0 z-10 rounded-lg p-6 bg-white  ${scrollStatus != "DOWN" ? "translate-y-0" : "-translate-y-full"}`}
+    >
       <div className="flex items-center gap-3">
         <div className="flex-1 relative">
           <input
             value={keyword}
             onChange={handleChange}
-            onFocus={() => setOpen(true)}
+            onFocus={() => {
+              setOpen(true);
+            }}
             type="text"
             placeholder="역명을 입력하세요 (예: 강남역)"
             className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-sm"
@@ -120,11 +135,13 @@ const StationSearch: React.FC<SearchProps> = ({ onChangeStaion }) => {
             />
           </svg>
         </button>
+        <button
+          onClick={() => onRefreshLoading()}
+          className="bg-blue-500 text-white p-3 rounded-lg cursor-pointer"
+        >
+          <SpinIcon speed={"slow"} loading={loading} color="#fff" />
+        </button>
       </div>
-
-      <p className="mt-2 text-xs text-slate-500">
-        예: 강남역, 서울역, 종로3가역 등
-      </p>
     </div>
   );
 };

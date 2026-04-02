@@ -1,18 +1,24 @@
 type SpinIconProps = {
   loading?: boolean;
   speed: "slow" | "fast";
+  color?: string;
 };
 
-const SpinIcon = ({ loading, speed = "slow" }: SpinIconProps) => {
+const SpinIcon = ({
+  loading,
+  speed = "slow",
+  color = "oklch(54.6% 0.245 262.881)",
+}: SpinIconProps) => {
   return (
     <svg
-      className={`w-6 h-6 inline-block ${loading ? "animate-spin" : ""}`}
+      className={`w-5 h-5 ${loading ? "animate-spin" : ""}`}
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
       style={{ animationDuration: speed === "slow" ? "1.5s" : "0.5s" }}
     >
       <path
+        color={color}
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth={2}

@@ -29,7 +29,7 @@ const TrainPosition: React.FC<TrainPositionProps> = ({
 
   useEffect(() => {
     const el = ref.current;
-    if (el) el.scrollLeft = el.scrollWidth; // 👉 맨 오른쪽
+    if (el) el.scrollLeft = el.scrollWidth;
   }, [upcomingStations]);
 
   return (
