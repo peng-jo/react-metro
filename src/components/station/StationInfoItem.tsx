@@ -18,7 +18,6 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
     line_number_origin: stationNum,
     station_name_english: stationNameEng,
     front_code: frontCode,
-
     color,
   } = station ?? {};
 
@@ -32,10 +31,10 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
     >
       {/* band background */}
       <div
-        className="w-full md:h-16 h-14 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
+        className="w-full rounded-lg md:h-16 h-14 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
         style={{ backgroundColor: station?.color || "#999" }}
       />
-      <div className="flex w-full gap-y-8 my-8 z-1">
+      <div className="flex w-full my-3 md:my-6 z-1">
         {/* Previous Station*/}
         <InfoSide station={prevStation} direction="left" useArrowIcon={false} />
 
@@ -54,7 +53,7 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
           </div>
 
           {/* Text content */}
-          <div className="flex flex-col justify-center text-center md:text-2xl  ">
+          <div className="flex flex-col justify-center text-center md:text-xl  ">
             <div className="font-extrabold text-slate-900">{stationName}</div>
             <div className="hidden md:block text-slate-900 font-extrabold mt-0.5">
               {stationNameEng}

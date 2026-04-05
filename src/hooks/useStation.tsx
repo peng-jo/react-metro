@@ -1,54 +1,49 @@
 import { RealtimeArrivalInfo } from "@/types/stationType";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-interface State {
-  stationName: string;
-  arrivals: RealtimeArrivalInfo[];
-  searchCodes: string[];
-  receiveTime: Date | null;
-}
-
-const initialState: State = {
-  stationName: "",
-  arrivals: [],
-  searchCodes: [],
-  receiveTime: null,
+type Result = {
+  realtimeArrivalList: RealtimeArrivalInfo[];
+  errorMessage: {
+    message: string;
+    status: number;
+  };
 };
 
-export function useStation() {
-  const [station, setStation] = useState(initialState);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
+export function useStation(result: Result) {
+  const [addSec, setAddSec] = useState(0);
+  const [isOpensearchList, setIsOpensearchList] = useState(false);
 
-  async function loadStation(stationName: string, stationCodes: string[]) {
-    setLoading(true);
-    setError(null);
+  const arrivals = result?.realtimeArrivalList ?? [];
 
-    try {
-      const response = await fetch(
-        `${import.meta.env.VITE_API_BASE_URL}/${stationName}`,
-      );
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setAddSec((addSec) => addSec + 1);
+    }, 1000);
 
-      const { realtimeArrivalList, errorMessage, status } =
-        await response.json();
+    return () => {
+      clearInterval(interval);
+    };
+  }, [arrivals]);
 
-      if (status !== 500 && errorMessage.status === 200) {
-        const now = new Date();
-        setStation({
-          stationName,
-          arrivals: realtimeArrivalList,
-          searchCodes: stationCodes,
-          receiveTime: now,
-        });
-      } else {
-        setError("API ERROR");
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsOpensearchList(false);
       }
-    } catch (e) {
-      setError("NETWORK ERROR");
-    } finally {
-      setLoading(false);
-    }
-  }
+    };
 
-  return { station, loadStation, loading, error };
+    window.addEventListener("keydown", handleEsc);
+
+    return () => {
+      window.removeEventListener("keydown", handleEsc);
+    };
+  }, []);
+
+  return {
+    arrivals: arrivals,
+    receiveTime: new Date(),
+    addSec: addSec,
+    isOpensearchList,
+    setIsOpensearchList,
+  };
 }

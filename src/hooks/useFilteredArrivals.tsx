@@ -18,6 +18,9 @@ export function useFilteredArrivals(
   const lineInfoData = lineInfo as SubwayLineInfo[];
   const stationCode = currentStation?.station_code ?? "";
 
+  if (arrivals.length === 0) {
+    return {};
+  }
   const upNodes = useMemo(
     () => metroEngine.getstationGraphNodes(stationCode, "up"),
     [stationCode],
@@ -82,7 +85,7 @@ function filterArrivalsByLineNumber(
   lineInfoData: SubwayLineInfo[],
   originLineNumber: string,
 ) {
-  return arrivals.filter((arrive) => {
+  return arrivals?.filter((arrive) => {
     const lineInfo = lineInfoData.find((lineInfo) => {
       return lineInfo.SUBWAY_ID === arrive.subwayId;
     });

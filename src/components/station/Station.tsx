@@ -9,40 +9,25 @@ import StationInfoList from "./StationInfoList";
 
 import { useStation } from "@/hooks/useStation";
 import { useScrollStatus } from "@/hooks/useScrollStatus";
+import { useFetch } from "@/hooks/useFetch";
+import { StationInfo } from "@/types/stationType";
 
 const Station: React.FC = () => {
-  const { station, loadStation, loading } = useStation();
-  const { stationName, searchCodes, arrivals, receiveTime } = station;
-  const [addSec, setAddSec] = useState(0);
-  const receiveTimeText = calcDiffTime(receiveTime);
+  const [stationName, setStationName] = useState("");
+  const [selectedCode, setSelectedCode] = useState<string>("");
+  const [selectedCodes, setSelectedCodes] = useState<string[]>([]);
+
+  const query = stationName ? `metro/${stationName}` : null;
+
+  const { data, loading, error, reFetchData } = useFetch(query);
+  const { arrivals, addSec, isOpensearchList, setIsOpensearchList } =
+    useStation(data);
 
   const scrollStatus = useScrollStatus();
+  const receiveTimeText = calcDiffTime(addSec);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setAddSec((addSec) => addSec + 1);
-    }, 1000);
-
-    return () => {
-      clearInterval(interval);
-    };
-  }, []);
-  function handleChangeStation(stationName: string) {
-    const stationCodes = metroEngine.getStationCodesByName(stationName);
-    const values = stationCodes?.values();
-
-    if (values) {
-      loadStation(stationName, [...values]);
-    }
-  }
-
-  function calcDiffTime(reiciveDataTime: Date | null): string {
-    if (reiciveDataTime === null) {
-      return "";
-    }
-
-    const diffTime = new Date().getTime() - reiciveDataTime?.getTime();
-    const parsedSec = diffTime / 1000;
+  function calcDiffTime(addSec: number): string {
+    const parsedSec = addSec;
 
     let hour = 0;
     let min = 0;
@@ -62,33 +47,74 @@ const Station: React.FC = () => {
     return min > 0 ? `${min}분 ${sec}초` : `${sec}초`;
   }
 
-  async function handleLoaing() {
-    await loadStation(stationName, searchCodes);
+  function handleChangeStation(stationInfo: StationInfo) {
+    if (stationInfo) {
+      setStationName(stationInfo.station_name);
+      setSelectedCode(stationInfo.station_code);
+      const stationCodes = metroEngine.getStationCodesByName(
+        stationInfo.station_name,
+      );
+      setSelectedCodes(stationCodes);
+    }
   }
 
+  const station = metroEngine.getStationInfoByCode(selectedCode);
+  const color = station?.color ?? "#FFFFFF";
+
   return (
-    <React.Fragment>
+    <div>
       <Search
         onChangeStaion={handleChangeStation}
-        onRefreshLoading={handleLoaing}
+        onRefreshData={() => reFetchData(query)}
         loading={loading}
-        receiveTimeText={receiveTimeText}
+        isOpensearchList={isOpensearchList}
+        setIsOpensearchList={setIsOpensearchList}
         scrollStatus={scrollStatus}
+        stationColor={color}
       />
 
       {arrivals.length > 0 && (
         <StationInfoReceiveTime reiciveDataTimeText={receiveTimeText} />
       )}
-      {searchCodes &&
-        searchCodes.map((code) => {
-          const station = metroEngine.getStationInfoByCode(code);
+      <div className="flex mt-3 md:mt-6">
+        {arrivals.length > 0 &&
+          selectedCodes.map((code, index) => {
+            const stationInfo = metroEngine.getStationInfoByCode(code);
+            const { color = "#2B7FFF", station_code: stationCode } =
+              stationInfo ?? {};
+
+            return (
+              <button
+                key={code}
+                onClick={() => setSelectedCode(code)}
+                className={`
+                  px-2 py-1 sm:px-3 sm:py-2 mr-2
+                  rounded-lg flex items-center justify-center
+                  text-white text-xs sm:text-sm font-bold
+                  cursor-pointer select-none
+                  transition-all active:scale-95
+                  ${selectedCode === code ? "scale-110" : "scale-100"}
+                `}
+                style={{ backgroundColor: color }}
+              >
+                {stationCode}
+              </button>
+            );
+          })}
+      </div>
+
+      {arrivals.length > 0 &&
+        selectedCodes.map((code) => {
           return (
-            <React.Fragment key={code}>
+            <div
+              key={code}
+              style={{ display: selectedCode === code ? "block" : "none" }}
+            >
               <StationInfoList station={station} arrivals={arrivals} />
-            </React.Fragment>
+            </div>
           );
         })}
-    </React.Fragment>
+    </div>
   );
 };
 

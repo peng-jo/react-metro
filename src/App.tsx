@@ -2,9 +2,9 @@ import Station from "@components/station/Station";
 
 const App: React.FC = () => {
   return (
-    <div className="h-screen  from-slate-50 to-slate-100">
+    <div className="h-screen  from-slate-50 to-slate-100 px-2 sm:px-6 lg:px-4">
       {/* Header */}
-      <header className="shadow-sm border-b border-slate-200">
+      <header className=" border-slate-200">
         <div className="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 lg:max-w-7/10">
           <h1 className="text-2xl font-bold text-slate-900">
             수도권 지하철 실시간 도착 정보
@@ -16,12 +16,12 @@ const App: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="min-h-4/6 mx-auto px-2 sm:px-6 lg:px-4 lg:max-w-7/10">
+      <main className="min-h-4/6 mx-auto">
         <Station />
       </main>
 
       {/* Footer */}
-      <footer className=" border-t border-slate-200 mt-12">
+      <footer className="border-t border-slate-200 mt-12">
         <div className="max-w-6xl mx-auto px-4 py-6 sm:px-6 lg:px-8 ">
           <a href="https://data.seoul.go.kr/dataList/OA-12764/F/1/datasetView.do">
             도착 데이터 출처

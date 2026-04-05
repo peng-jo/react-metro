@@ -3,26 +3,31 @@ import React, { useMemo, useState } from "react";
 
 import { getChoseong } from "es-hangul";
 import SpinIcon from "./icon/SpinIcon";
+import { StationInfo } from "@/types/stationType";
+import { BLACK_COLOR, WHITE_COLOR } from "./constants";
 
 interface SearchProps {
-  onChangeStaion: (value: string) => void;
-  onRefreshLoading: () => void;
+  onChangeStaion: (stationInfo: StationInfo) => void;
+  onRefreshData: () => void;
   loading: boolean;
-  receiveTimeText: string;
   scrollStatus: string;
+  stationColor: string;
+  isOpensearchList: boolean;
+  setIsOpensearchList: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const StationSearch: React.FC<SearchProps> = ({
   onChangeStaion,
-  onRefreshLoading,
+  onRefreshData,
+  isOpensearchList,
+  setIsOpensearchList,
   loading,
-  receiveTimeText,
   scrollStatus,
+  stationColor,
 }) => {
   const [keyword, setKeyword] = useState("");
-  const [open, setOpen] = useState(false);
 
-  const filteredStations = useMemo(() => {
+  const filteredStations: StationInfo[][] = useMemo(() => {
     const stationNames = metroEngine.getStationNames();
     const filterdNames = stationNames.filter((stationName) => {
       return matchKorean(stationName, keyword);
@@ -44,6 +49,10 @@ const StationSearch: React.FC<SearchProps> = ({
     });
   }, [keyword]);
 
+  const buttonTextColor =
+    stationColor === WHITE_COLOR ? BLACK_COLOR : WHITE_COLOR;
+  const bolderColor = stationColor === WHITE_COLOR ? "black" : stationColor;
+
   function matchKorean(text: string, keyword: string) {
     if (!keyword) return true;
 
@@ -55,71 +64,100 @@ const StationSearch: React.FC<SearchProps> = ({
       getChoseong(normalizedText).includes(normalizedKeyword) // 초성 검색
     );
   }
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const value = e.target.value;
-    setKeyword(value);
-    setOpen(true);
-  };
-
-  const handleSelect = (station: any) => {
-    setKeyword(station);
-    setOpen(false);
-  };
-
-  function handleSearch() {
-    onChangeStaion(keyword);
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const keyword = e.target.value;
+    setKeyword(keyword);
+    setIsOpensearchList(true);
   }
+
+  function handleSelect(station: StationInfo) {
+    if (!station) {
+      return;
+    }
+    setKeyword(station.station_name);
+    setIsOpensearchList(false);
+    onChangeStaion(station);
+  }
+
+  // function handleSearch() {
+  //   if (!stationInfo) {
+  //     return;
+  //   }
+  //   setOpen(false);
+  //   onChangeStaion(stationInfo);
+  // }
 
   return (
     <div
-      className={`sticky top-0 z-10 rounded-lg p-6 bg-white  ${scrollStatus != "DOWN" ? "translate-y-0" : "-translate-y-full"}`}
+      className={`sticky top-0 z-10 rounded-lg bg-white  ${scrollStatus != "DOWN" ? "translate-y-0" : "-translate-y-full"}`}
     >
       <div className="flex items-center gap-3">
         <div className="flex-1 relative">
           <input
+            id="search"
             value={keyword}
             onChange={handleChange}
             onFocus={() => {
-              setOpen(true);
+              setIsOpensearchList(true);
+            }}
+            onClick={() => {
+              setIsOpensearchList(true);
             }}
             type="text"
             placeholder="역명을 입력하세요 (예: 강남역)"
-            className="w-full px-4 py-3 border-2 border-slate-300 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all text-sm"
+            className="w-full px-4 py-3 rounded-lg text-sm border"
+            style={{ border: `2px solid ${bolderColor}` }}
           />
-
-          {open && filteredStations.length > 0 && (
+          {keyword && (
+            <button
+              onClick={() => {
+                setKeyword("");
+                setIsOpensearchList(false);
+              }}
+              className="absolute right-3 top-1/2 -translate-y-1/2
+                        text-gray-400 hover:text-black cursor-pointer"
+            >
+              ✕
+            </button>
+          )}
+          {isOpensearchList && filteredStations.length > 0 && (
             <ul className="bg-white absolute z-10 w-full border rounded-lg mt-1 max-h-48 overflow-y-auto">
               {filteredStations.map((stations) => {
-                const stationName = stations[0].station_name;
-                return (
-                  <li
-                    key={stations[0]?.station_name}
-                    className="px-4 py-2 cursor-pointer flex items-center justify-between hover:bg-zinc-300"
-                    onClick={() => handleSelect(stationName)}
-                  >
-                    {/* 역명 */}
-                    <span>{stationName}</span>
+                return stations.map((station) => {
+                  const stationName = station.station_name;
 
-                    <div className="flex gap-1">
-                      {stations.map((line, idx) => (
+                  return (
+                    <li
+                      key={station?.station_code}
+                      className="px-4 py-2 cursor-pointer flex items-center justify-between hover:bg-zinc-300"
+                      onClick={() => handleSelect(station)}
+                    >
+                      {/* 역명 */}
+                      <span>{stationName}</span>
+
+                      <div className="flex gap-1">
                         <span
-                          key={idx}
-                          title={line.line_number}
+                          title={station.line_number}
                           className="w-3 h-3 rounded-full"
-                          style={{ backgroundColor: line.color }}
+                          style={{ background: station.color }}
                         />
-                      ))}
-                    </div>
-                  </li>
-                );
+                      </div>
+                    </li>
+                  );
+                });
               })}
             </ul>
           )}
         </div>
 
+        {/* 검색버튼 비활성화
         <button
           onClick={handleSearch}
-          className="bg-blue-500 text-white p-3 rounded-lg cursor-pointer"
+          className="p-3 border border-black rounded-lg cursor-pointer"
+          style={{
+            backgroundColor: stationColor,
+            color: buttonTextColor,
+          }}
         >
           <svg
             className="w-5 h-5"
@@ -134,12 +172,16 @@ const StationSearch: React.FC<SearchProps> = ({
               d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
             />
           </svg>
-        </button>
+        </button> */}
         <button
-          onClick={() => onRefreshLoading()}
-          className="bg-blue-500 text-white p-3 rounded-lg cursor-pointer"
+          onClick={onRefreshData}
+          className="p-3 rounded-lg cursor-pointer border"
+          style={{
+            backgroundColor: stationColor,
+            border: `1px solid ${bolderColor}`,
+          }}
         >
-          <SpinIcon speed={"slow"} loading={loading} color="#fff" />
+          <SpinIcon speed={"slow"} loading={loading} color={buttonTextColor} />
         </button>
       </div>
     </div>

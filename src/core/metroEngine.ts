@@ -116,7 +116,9 @@ class MetroEngine {
   }
 
   getStationCodesByName(stationName: string) {
-    return this.stationNameCodeMap.get(stationName);
+    const stationCodeSet = this.stationNameCodeMap.get(stationName);
+    const stationCodes = stationCodeSet?.values() ?? [];
+    return [...stationCodes];
   }
 
   getSubwayMasterDataByCode(code: string) {

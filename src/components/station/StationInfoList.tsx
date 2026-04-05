@@ -23,12 +23,12 @@ const Infos: React.FC<InfoProps> = ({ station, arrivals }) => {
   } = useFilteredArrivals(station, arrivals);
 
   return (
-    <div className="px-2">
+    <div>
       {upNodes.map((node, index) => {
         const filtered = upFiltered[index];
         const upcomingStations = upStationsList[index];
         return (
-          <div key={node.key}>
+          <div key={node.key} className="rounded-lg">
             <StationInfoItem station={station} node={node} />
             <TrainPosition
               upcomingStations={upcomingStations}
@@ -46,7 +46,7 @@ const Infos: React.FC<InfoProps> = ({ station, arrivals }) => {
         const filtered = downFiltered[index];
         const upcomingStations = downStationsList[index];
         return (
-          <div key={node.key}>
+          <div key={node.key} className="rounded-t-lg">
             <StationInfoItem station={station} node={node} />
             <TrainPosition
               upcomingStations={upcomingStations}

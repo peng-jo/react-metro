@@ -144,12 +144,12 @@ const Arrive: React.FC<{
           ) : (
             <div className="px-6 py-12 text-center">
               <div className="flex flex-col items-center justify-center gap-4">
-                <div className="flex justify-center items-center gap-3">
+                {/* <div className="flex justify-center items-center gap-3">
                   <span className="text-slate-600 font-medium text-lg">
                     데이터 로딩 중
                   </span>
                   <SpinIcon loading={true} speed="slow" />
-                </div>
+                </div> */}
 
                 <p className="text-slate-500 ">
                   운행 시간이 아니거나 API가 해당 역을 지원하지 않을 수 있습니다

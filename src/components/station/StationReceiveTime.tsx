@@ -5,7 +5,7 @@ type Props = {
 
 const StationReceiveTime: React.FC<Props> = ({ reiciveDataTimeText }) => {
   return (
-    <div className="ml-6 flex flex-col bg-white rounded-lg">
+    <div className="flex flex-col bg-white rounded-lg mt-3 md:mt-6">
       <div className="flex items-center">
         <span className="text-sm font-semibold text-slate-700">
           데이터 수신 시간 :
