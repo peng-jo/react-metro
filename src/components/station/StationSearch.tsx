@@ -106,7 +106,7 @@ const StationSearch: React.FC<SearchProps> = ({
             type="text"
             placeholder="역명을 입력하세요 (예: 강남역)"
             className="w-full px-4 py-3 rounded-lg text-sm border"
-            style={{ border: `2px solid ${bolderColor}` }}
+            style={{ border: `1px solid ${bolderColor}` }}
           />
           {keyword && (
             <button
