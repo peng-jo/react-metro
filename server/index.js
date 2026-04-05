@@ -105,7 +105,17 @@ app.get("/health", (req, res) => {
 });
 
 // 정적 파일 (프론트)
-app.use(express.static(path.join(__dirname, "../dist")));
+app.use(
+  express.static(path.join(__dirname, "../dist"), {
+    maxAge: "1y",
+    immutable: true,
+    setHeaders: (res, path) => {
+      if (path.endsWith("index.html")) {
+        res.setHeader("Cache-Control", "no-cache");
+      }
+    },
+  }),
+);
 
 //  SPA 라우팅 처리
 app.get("*", (req, res) => {
