@@ -1,9 +1,11 @@
 import React from "react";
+import { toStringSecond } from "@/utils/time";
+
 type Props = {
-  reiciveDataTimeText: string;
+  addSec: number;
 };
 
-const StationReceiveTime: React.FC<Props> = ({ reiciveDataTimeText }) => {
+const StationReceiveTime: React.FC<Props> = ({ addSec }) => {
   return (
     <div className="flex flex-col bg-white rounded-lg mt-3 md:mt-6">
       <div className="flex items-center">
@@ -12,7 +14,7 @@ const StationReceiveTime: React.FC<Props> = ({ reiciveDataTimeText }) => {
         </span>
         <div className="flex ml-2">
           <span className="text-lg font-bold text-slate-900">
-            {reiciveDataTimeText || "로딩중..."}
+            {toStringSecond(addSec) || "로딩중..."}
           </span>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Infos: React.FC<InfoProps> = ({ station, arrivals }) => {
 
   return (
     <div>
-      {upNodes.map((node, index) => {
+      {upNodes?.map((node, index) => {
         const filtered = upFiltered[index];
         const upcomingStations = upStationsList[index];
         return (
@@ -42,7 +42,7 @@ const Infos: React.FC<InfoProps> = ({ station, arrivals }) => {
           </div>
         );
       })}
-      {downNodes.map((node, index) => {
+      {downNodes?.map((node, index) => {
         const filtered = downFiltered[index];
         const upcomingStations = downStationsList[index];
         return (

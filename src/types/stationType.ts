@@ -132,6 +132,7 @@ export type RealtimeArrivalInfo = {
   arvlMsg3: string;
   arvlCd: ArrivalCodeValue;
   lstcarAt: LastCarAtValue;
+  remainText?: string;
 };
 
 export type ReiciveDataTime = Date;

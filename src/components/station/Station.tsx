@@ -20,32 +20,10 @@ const Station: React.FC = () => {
   const query = stationName ? `metro/${stationName}` : null;
 
   const { data, loading, error, reFetchData } = useFetch(query);
-  const { arrivals, addSec, isOpensearchList, setIsOpensearchList } =
+  const { arrivals, isOpensearchList, addSec, setIsOpensearchList } =
     useStation(data);
 
   const scrollStatus = useScrollStatus();
-  const receiveTimeText = calcDiffTime(addSec);
-
-  function calcDiffTime(addSec: number): string {
-    const parsedSec = addSec;
-
-    let hour = 0;
-    let min = 0;
-    let sec = 0;
-
-    if (parsedSec / 60 > 60) {
-      hour = Math.floor(parsedSec / 60 / 60);
-      min = Math.floor((parsedSec / 60) % 60);
-      sec = Math.floor(((parsedSec / 60) % 60) % 60);
-
-      return `${hour}시 ${min}분 ${sec}초`;
-    }
-
-    min = Math.floor(parsedSec / 60);
-    sec = Math.floor(parsedSec % 60);
-
-    return min > 0 ? `${min}분 ${sec}초` : `${sec}초`;
-  }
 
   function handleChangeStation(stationInfo: StationInfo) {
     if (stationInfo) {
@@ -73,11 +51,9 @@ const Station: React.FC = () => {
         stationColor={color}
       />
 
-      {arrivals.length > 0 && (
-        <StationInfoReceiveTime reiciveDataTimeText={receiveTimeText} />
-      )}
+      {arrivals?.length > 0 && <StationInfoReceiveTime addSec={addSec} />}
       <div className="flex mt-3 md:mt-6">
-        {arrivals.length > 0 &&
+        {arrivals?.length > 0 &&
           selectedCodes.map((code, index) => {
             const stationInfo = metroEngine.getStationInfoByCode(code);
             const { color = "#2B7FFF", station_code: stationCode } =
@@ -103,7 +79,7 @@ const Station: React.FC = () => {
           })}
       </div>
 
-      {arrivals.length > 0 &&
+      {arrivals?.length > 0 &&
         selectedCodes.map((code) => {
           return (
             <div
