@@ -226,7 +226,8 @@ function getprevStationsList(
         { stationInfo: null, ahead: -1 },
       );
 
-    const ahead = maxAheadInfo.ahead ?? 0;
+    let ahead = maxAheadInfo.ahead ?? 0;
+    ahead = ahead < 5 ? 5 : ahead;
     let nowAhead = 0;
     // prev를 따라가면서 upcoming stations 수집
     let currentNode: GraphNode<string> | null = node;
