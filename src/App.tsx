@@ -2,7 +2,7 @@ import Station from "@components/station/Station";
 
 const App: React.FC = () => {
   return (
-    <div className="h-dvh max-w-300 mx-auto from-slate-50 to-slate-100 px-2 sm:px-6 lg:px-4">
+    <div className="h-dvh flex flex-col max-w-300 mx-auto from-slate-50 to-slate-100 px-2 sm:px-6 lg:px-4">
       {/* Header */}
       <header className="py-6 md:py-8">
         <h1 className="text-2xl font-bold text-slate-900">
@@ -14,7 +14,7 @@ const App: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="min-h-7/10">
+      <main className="flex-1">
         <Station />
       </main>
 

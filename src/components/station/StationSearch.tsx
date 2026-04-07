@@ -89,7 +89,7 @@ const StationSearch: React.FC<SearchProps> = ({
 
   return (
     <div
-      className={`sticky py-3 md:py-6 top-0 z-10 bg-white  ${scrollStatus != "DOWN" ? "translate-y-0" : "-translate-y-full"}`}
+      className={`${scrollStatus !== "INIT" ? "fixed left-0 w-screen px-6 md:px-8 translate-y-0" : "relative"} py-3 md:py-6 top-0 z-10 bg-white`}
     >
       <div className="flex items-center gap-3">
         <div className="flex-1 relative">
