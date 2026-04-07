@@ -34,7 +34,7 @@ const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
         className="w-full rounded-lg md:h-16 h-14 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
         style={{ backgroundColor: station?.color || "#999" }}
       />
-      <div className="flex w-full my-3 md:my-6 z-1">
+      <div className="flex w-full py-3 md:py-6 z-1">
         {/* Previous Station*/}
         <InfoSide station={prevStation} direction="left" useArrowIcon={false} />
 

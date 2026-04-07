@@ -52,7 +52,7 @@ const Station: React.FC = () => {
       />
 
       {arrivals?.length > 0 && <StationInfoReceiveTime addSec={addSec} />}
-      <div className="flex mt-3 md:mt-6">
+      <div className="flex py-3 md:py-6">
         {arrivals?.length > 0 &&
           selectedCodes.map((code, index) => {
             const stationInfo = metroEngine.getStationInfoByCode(code);
