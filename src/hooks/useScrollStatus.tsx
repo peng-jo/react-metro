@@ -25,11 +25,11 @@ export const useScrollStatus = () => {
       const current = window.scrollY;
       const last = lastScrollY.current;
       setScrollStatus((prev) => {
-        if (current <= 100) return "INIT";
-        if (current > last + 5) {
+        if (current <= 190) return "INIT";
+        if (current > last) {
           return "DOWN";
         }
-        if (current < last - 5) {
+        if (current < last) {
           return "UP";
         }
         return prev;

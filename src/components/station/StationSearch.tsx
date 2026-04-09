@@ -14,6 +14,7 @@ interface SearchProps {
   stationColor: string;
   isOpensearchList: boolean;
   setIsOpensearchList: React.Dispatch<React.SetStateAction<boolean>>;
+  type: "TOP" | "FIXED";
 }
 
 const StationSearch: React.FC<SearchProps> = ({
@@ -24,6 +25,7 @@ const StationSearch: React.FC<SearchProps> = ({
   loading,
   scrollStatus,
   stationColor,
+  type,
 }) => {
   const [keyword, setKeyword] = useState("");
 
@@ -52,6 +54,15 @@ const StationSearch: React.FC<SearchProps> = ({
   const buttonTextColor =
     stationColor === WHITE_COLOR ? BLACK_COLOR : WHITE_COLOR;
   const bolderColor = stationColor === WHITE_COLOR ? "black" : stationColor;
+
+  let className = "relative";
+
+  if (type === "FIXED") {
+    className =
+      scrollStatus === "INIT"
+        ? "hidden"
+        : "fixed left-0 w-screen px-6 md:px-8 translate-y-0";
+  }
 
   function matchKorean(text: string, keyword: string) {
     if (!keyword) return true;
@@ -88,9 +99,7 @@ const StationSearch: React.FC<SearchProps> = ({
   // }
 
   return (
-    <div
-      className={`${scrollStatus !== "INIT" ? "fixed left-0 w-screen px-6 md:px-8 translate-y-0" : "relative"} py-3 md:py-6 top-0 z-10 bg-white`}
-    >
+    <div className={`${className} py-3 md:py-6 top-0 z-10 bg-white`}>
       <div className="flex items-center gap-3">
         <div className="flex-1 relative">
           <input
@@ -150,29 +159,6 @@ const StationSearch: React.FC<SearchProps> = ({
           )}
         </div>
 
-        {/* 검색버튼 비활성화
-        <button
-          onClick={handleSearch}
-          className="p-3 border border-black rounded-lg cursor-pointer"
-          style={{
-            backgroundColor: stationColor,
-            color: buttonTextColor,
-          }}
-        >
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
-        </button> */}
         <button
           onClick={onRefreshData}
           className="p-3 rounded-lg cursor-pointer border"

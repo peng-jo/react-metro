@@ -42,6 +42,17 @@ const Station: React.FC = () => {
   return (
     <div>
       <Search
+        type="TOP"
+        onChangeStaion={handleChangeStation}
+        onRefreshData={() => reFetchData(query)}
+        loading={loading}
+        isOpensearchList={isOpensearchList}
+        setIsOpensearchList={setIsOpensearchList}
+        scrollStatus={scrollStatus}
+        stationColor={color}
+      />
+      <Search
+        type="FIXED"
         onChangeStaion={handleChangeStation}
         onRefreshData={() => reFetchData(query)}
         loading={loading}
