@@ -1,10 +1,12 @@
 import { metroEngine } from "@/core/metroEngine";
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useEffect, useRef } from "react";
 
 import { getChoseong } from "es-hangul";
 import SpinIcon from "./icon/SpinIcon";
 import { StationInfo } from "@/types/stationType";
 import { BLACK_COLOR, WHITE_COLOR } from "./constants";
+import { REFRESH_INTERVAL_OPTIONS, RefreshInterval } from "./enums";
+import { useTimerStore, type TimerState } from "@/store/timerStore";
 
 interface SearchProps {
   onChangeStaion: (stationInfo: StationInfo) => void;
@@ -15,6 +17,7 @@ interface SearchProps {
   isOpensearchList: boolean;
   setIsOpensearchList: React.Dispatch<React.SetStateAction<boolean>>;
   type: "TOP" | "FIXED";
+  isSearched: boolean;
 }
 
 const StationSearch: React.FC<SearchProps> = ({
@@ -26,8 +29,33 @@ const StationSearch: React.FC<SearchProps> = ({
   scrollStatus,
   stationColor,
   type,
+  isSearched,
 }) => {
   const [keyword, setKeyword] = useState("");
+  const [isRefreshMenuOpen, setIsRefreshMenuOpen] = useState(false);
+
+  const refreshInterval = useTimerStore(
+    (state: TimerState) => state.refreshInterval,
+  );
+  const setRefreshInterval = useTimerStore(
+    (state: TimerState) => state.setRefreshInterval,
+  );
+
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  // 외부 클릭 시 메뉴 닫기
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsRefreshMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const filteredStations: StationInfo[][] = useMemo(() => {
     const stationNames = metroEngine.getStationNames();
@@ -54,6 +82,8 @@ const StationSearch: React.FC<SearchProps> = ({
   const buttonTextColor =
     stationColor === WHITE_COLOR ? BLACK_COLOR : WHITE_COLOR;
   const bolderColor = stationColor === WHITE_COLOR ? "black" : stationColor;
+
+  const refreshButtonColor = isSearched ? stationColor : WHITE_COLOR;
 
   let className = "relative";
 
@@ -90,13 +120,13 @@ const StationSearch: React.FC<SearchProps> = ({
     onChangeStaion(station);
   }
 
-  // function handleSearch() {
-  //   if (!stationInfo) {
-  //     return;
-  //   }
-  //   setOpen(false);
-  //   onChangeStaion(stationInfo);
-  // }
+  function hanldeOnRefreshClick(value: RefreshInterval): void {
+    if (isSearched) {
+      isSearched;
+    }
+    setRefreshInterval(value);
+    setIsRefreshMenuOpen(false);
+  }
 
   return (
     <div className={`${className} py-3 md:py-6 top-0 z-10 bg-white`}>
@@ -161,14 +191,66 @@ const StationSearch: React.FC<SearchProps> = ({
 
         <button
           onClick={onRefreshData}
-          className="p-3 rounded-lg cursor-pointer border"
+          className="w-12 h-12 flex justify-center items-center rounded-lg cursor-pointer border transition-transform active:scale-95"
           style={{
             backgroundColor: stationColor,
             border: `1px solid ${bolderColor}`,
           }}
+          title="지금 새로고침"
         >
           <SpinIcon speed={"slow"} loading={loading} color={buttonTextColor} />
         </button>
+
+        {/* 자동 갱신 설정 버튼 */}
+        <div ref={menuRef}>
+          <button
+            onClick={() => setIsRefreshMenuOpen(!isRefreshMenuOpen)}
+            className={`
+    w-12 h-12 flex justify-center items-center rounded-lg border
+    transition-all active:scale-95
+    ${isSearched ? "cursor-pointer" : "opacity-40 cursor-pointer pointer-events-none"}
+  `}
+            style={{
+              backgroundColor: refreshButtonColor,
+              border: `1px solid ${bolderColor}`,
+            }}
+            title="자동 갱신 설정"
+          >
+            <div
+              className="w-4 h-4  [clip-path:polygon(50%_100%,0_0,100%_0)]"
+              style={{ backgroundColor: buttonTextColor }}
+            ></div>
+          </button>
+
+          {isRefreshMenuOpen && (
+            <div
+              className="absolute right-0 mt-2 rounded-lg bg-white border shadow-lg z-20 min-w-40"
+              style={{ border: `1px solid ${bolderColor}` }}
+            >
+              {REFRESH_INTERVAL_OPTIONS.map(({ label, value }, index) => (
+                <button
+                  key={value}
+                  onClick={() => hanldeOnRefreshClick(value)}
+                  className={`w-full first:rounded-t-md last:rounded-b-md px-4 pt-3 pb-2 text-sm text-left hover:bg-slate-100 transition-colors 
+                    
+                      ${
+                        refreshInterval === value
+                          ? "font-semibold text-white"
+                          : "text-slate-700"
+                      }`}
+                  style={
+                    refreshInterval === value
+                      ? { backgroundColor: stationColor }
+                      : {}
+                  }
+                >
+                  {label}
+                  {refreshInterval === value && " ✓"}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -9,19 +9,24 @@ import StationInfoList from "./StationInfoList";
 
 import { useStation } from "@/hooks/useStation";
 import { useScrollStatus } from "@/hooks/useScrollStatus";
-import { useFetch } from "@/hooks/useFetch";
+
 import { StationInfo } from "@/types/stationType";
 
 const Station: React.FC = () => {
-  const [stationName, setStationName] = useState("");
-  const [selectedCode, setSelectedCode] = useState<string>("");
-  const [selectedCodes, setSelectedCodes] = useState<string[]>([]);
-
-  const query = stationName ? `metro/${stationName}` : null;
-
-  const { data, loading, error, reFetchData } = useFetch(query);
-  const { arrivals, isOpensearchList, addSec, setIsOpensearchList } =
-    useStation(data);
+  const {
+    arrivals,
+    isOpensearchList,
+    setIsOpensearchList,
+    addSec,
+    setStationName,
+    loading,
+    selectedCode,
+    setSelectedCode,
+    selectedCodes,
+    setSelectedCodes,
+    reFetchData,
+    query,
+  } = useStation();
 
   const scrollStatus = useScrollStatus();
 
@@ -38,6 +43,7 @@ const Station: React.FC = () => {
 
   const station = metroEngine.getStationInfoByCode(selectedCode);
   const color = station?.color ?? "#FFFFFF";
+  const isSearched = arrivals.length > 0;
 
   return (
     <div>
@@ -50,6 +56,7 @@ const Station: React.FC = () => {
         setIsOpensearchList={setIsOpensearchList}
         scrollStatus={scrollStatus}
         stationColor={color}
+        isSearched={isSearched}
       />
       <Search
         type="FIXED"
@@ -60,6 +67,7 @@ const Station: React.FC = () => {
         setIsOpensearchList={setIsOpensearchList}
         scrollStatus={scrollStatus}
         stationColor={color}
+        isSearched={isSearched}
       />
 
       {arrivals?.length > 0 && <StationInfoReceiveTime addSec={addSec} />}
