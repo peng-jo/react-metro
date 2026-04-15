@@ -20,7 +20,7 @@ const Arrive: React.FC<{
   const parsedArrivals = useMemo(
     () =>
       arrivals.map((arrive) => {
-        const remainText = getElapsedTime(arrive.recptnDt, addSec);
+        const remainText = getElapsedTime(arrive.receptionDateTime, addSec);
 
         return {
           ...arrive,
@@ -86,24 +86,27 @@ const Arrive: React.FC<{
                 {parsedArrivals.map((arrive, index) => {
                   return (
                     <tr
-                      key={arrive.btrainNo}
+                      key={arrive.trainNumber}
                       className="border-b border-slate-200 text-center"
                     >
                       {/* 상하행선 */}
                       <td className="hidden md:block font-medium text-slate-900 py-2">
-                        {arrive.updnLine}
+                        {arrive.upDownLine}
                       </td>
                       {/* 종착역 */}
                       <td className="font-medium text-slate-900 py-2">
-                        {arrive.bstatnNm} 행
+                        {arrive.destinationStationName} 행
                       </td>
                       {/* 위치 */}
                       <td className="font-medium text-slate-900 py-2">
-                        {getStationsAheadText(station, arrive.arvlMsg3)}
+                        {getStationsAheadText(
+                          station,
+                          arrive.arrivalMessageTertiary,
+                        )}
                       </td>
                       {/* 현재 위치 */}
                       <td className="  text-slate-700 py-2">
-                        {arrive.arvlMsg3}
+                        {arrive.arrivalMessageTertiary}
                       </td>
                       {/* 데이터 기준 경과시간 */}
                       <td className="text-slate-700 py-2">

@@ -17,6 +17,43 @@ const IP = process.env.IP || "0.0.0.0";
 const SEOUL_API_KEY = process.env.SEOUL_METRO_API_KEY || "sample";
 const SEOUL_API_URL = "http://swopenapi.seoul.go.kr/api/subway";
 
+// API 응답 데이터를 프론트엔드 타입에 맞게 변환
+const transformArrivalData = (item) => {
+  return {
+    beginRow: item.beginRow || null,
+    endRow: item.endRow || null,
+    curPage: item.curPage || null,
+    pageRow: item.pageRow || null,
+    totalCount: item.totalCount || 0,
+    rowNum: item.rowNum || 0,
+    selectedCount: item.selectedCount || 0,
+    subwayId: item.subwayId,
+    subwayName: item.subwayNm || null,
+    upDownLine: item.updnLine,
+    trainLineName: item.trainLineNm,
+    subwayHeading: item.subwayHeading || null,
+    stationFrontId: item.statnFid,
+    stationTableId: item.statnTid,
+    stationId: item.statnId,
+    stationName: item.statnNm,
+    trainCompany: item.trainCo || null,
+    transitCount: item.trnsitCo,
+    orderKey: item.ordkey,
+    subwayList: item.subwayList,
+    stationList: item.statnList,
+    trainStatus: item.btrainSttus,
+    arrivalTime: item.barvlDt,
+    trainNumber: item.btrainNo,
+    destinationStationId: item.bstatnId,
+    destinationStationName: item.bstatnNm,
+    receptionDateTime: item.recptnDt,
+    arrivalMessageSecondary: item.arvlMsg2,
+    arrivalMessageTertiary: item.arvlMsg3,
+    arrivalCode: item.arvlCd,
+    lastCarAt: item.lstcarAt,
+  };
+};
+
 // Middleware
 app.use(cors());
 app.use(express.json());
@@ -38,6 +75,11 @@ const getMetroData = async (stationName) => {
       Array.isArray(data.realtimeArrivalList) &&
       data.realtimeArrivalList.length > 0
     ) {
+      // 필드명 변환
+      const transformedList = data.realtimeArrivalList.map((item) =>
+        transformArrivalData(item),
+      );
+
       return {
         status: 200,
         errorMessage: {
@@ -45,7 +87,7 @@ const getMetroData = async (stationName) => {
           message: "success",
         },
         totalCount: data.errorMessage?.total || data.realtimeArrivalList.length,
-        realtimeArrivalList: data.realtimeArrivalList,
+        realtimeArrivalList: transformedList,
       };
     } else {
       console.log("Response structure issue - data:", data);

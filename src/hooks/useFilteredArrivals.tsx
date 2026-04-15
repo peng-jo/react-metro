@@ -3,7 +3,7 @@ import {
   StationInfo,
   RealtimeArrivalInfo,
   SubwayLineInfo,
-  UpdnLineEnum,
+  DirectionLineEnum,
   DirectionValue,
   GraphNode,
 } from "@/types/stationType";
@@ -101,13 +101,13 @@ function filterArrivalsByDirection(
   return arrivals.filter((arrival) => {
     if (type === "down") {
       return (
-        arrival.updnLine === UpdnLineEnum["DOWN"] ||
-        arrival.updnLine === UpdnLineEnum["INNER"]
+        arrival.upDownLine === DirectionLineEnum["DOWN"] ||
+        arrival.upDownLine === DirectionLineEnum["INNER"]
       );
     } else if (type === "up") {
       return (
-        arrival.updnLine === UpdnLineEnum["UP"] ||
-        arrival.updnLine === UpdnLineEnum["OUTER"]
+        arrival.upDownLine === DirectionLineEnum["UP"] ||
+        arrival.upDownLine === DirectionLineEnum["OUTER"]
       );
     }
     return false;
@@ -122,14 +122,14 @@ function filterByCurrentStation(
   return arrivals.filter((arrival) => {
     const lineNumberOrigin = currentStation?.line_number_origin;
     const arriveStationInformation = metroEngine.getStationInfo(
-      arrival.arvlMsg3,
+      arrival.arrivalMessageTertiary,
       lineNumberOrigin,
     );
 
     let terminateNodes;
 
     const terminalStation = metroEngine.getStationInfo(
-      arrival.bstatnNm,
+      arrival.destinationStationName,
       lineNumberOrigin,
     );
 
@@ -199,7 +199,7 @@ function getprevStationsList(
 
     const maxAheadInfo = arrivals
       .map((arrival) => {
-        const stationName = arrival.arvlMsg3;
+        const stationName = arrival.arrivalMessageTertiary;
 
         const stationInfo = metroEngine.getStationInfo(
           stationName,
@@ -242,7 +242,7 @@ function getprevStationsList(
       if (currentStationInfo) {
         // 해당 역에 대한 도착 정보 찾기
         const arrival = arrivals.find(
-          (arr) => arr.arvlMsg3 === currentStationInfo.station_name,
+          (arr) => arr.arrivalMessageTertiary === currentStationInfo.station_name,
         );
         upcomingStations.push({
           name: currentStationInfo.station_name,
