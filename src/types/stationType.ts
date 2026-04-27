@@ -9,20 +9,20 @@ export type DirectionValue = (typeof DirectionEnum)[keyof typeof DirectionEnum];
 
 export interface StationTopology {
   /** N호선 */
-  line_number: string;
-  station_name_english: string;
+  lineNumber: string;
+  stationNameEnglish: string;
   /** 전철역명 */
-  station_name: string;
+  stationName: string;
   /** 전철역명(중문) */
-  station_name_china: string;
+  stationNameChina: string;
   /** 전철역명(일문) */
-  station_name_japan: string;
+  stationNameJapan: string;
   /** 호선 */
-  line_number_origin: string;
+  lineNumberOrigin: string;
   /** 전철역코드 */
-  station_code: string;
+  stationCode: string;
   /** 외부코드 */
-  front_code: string;
+  frontCode: string;
   /** 전철고유색상 */
   color?: string;
   /** 지선정보 */
@@ -104,44 +104,46 @@ export const DirectionLineEnum = {
 export type ArrivalCodeValue =
   (typeof ArrivalCodeEnum)[keyof typeof ArrivalCodeEnum];
 export type LastCarAtValue = (typeof LastCarAtEnum)[keyof typeof LastCarAtEnum];
-export type TrainStatusValue = (typeof TrainStatusEnum)[keyof typeof TrainStatusEnum];
+export type TrainStatusValue =
+  (typeof TrainStatusEnum)[keyof typeof TrainStatusEnum];
 export type SubwayLineValue =
   (typeof SubwayLineEnum)[keyof typeof SubwayLineEnum];
-export type DirectionLineValue = (typeof DirectionLineEnum)[keyof typeof DirectionLineEnum];
+export type DirectionLineValue =
+  (typeof DirectionLineEnum)[keyof typeof DirectionLineEnum];
 
 export type RealtimeArrivalInfo = {
-  beginRow: null;                    // 페이징 시작 행
-  endRow: null;                      // 페이징 종료 행
-  curPage: null;                     // 현재 페이지
-  pageRow: null;                     // 페이지당 행 수
-  totalCount: number;                // 총 데이터 건수
-  rowNum: number;                    // 행 번호
-  selectedCount: number;             // 선택된 건수
-  subwayId: SubwayLineValue;          // 지하철호선ID (1001:1호선, 1002:2호선, ...)
-  subwayName: null;                  // 지하철명
-  upDownLine: DirectionLineValue;      // 상하행선구분 (상행/내선, 하행/외선)
-  trainLineName: string;              // 도착지방면 (성수행 - 구로디지털단지방면)
-  subwayHeading: null;               // 지하철 방향
-  stationFrontId: string;            // 이전지하철역ID
-  stationTableId: string;            // 다음지하철역ID
-  stationId: string;                 // 지하철역ID
-  stationName: string;               // 지하철역명
-  trainCompany: null;                // 열차 회사
-  transitCount: number;              // 환승노선수
-  orderKey: string;                  // 도착예정열차순번 (상하행코드+순번+첫번째도착정류장-현재정류장+목적지정류장+급행여부)
-  subwayList: string;                // 연계호선ID (1002, 1007 등 연계대상 호선ID)
-  stationList: string;               // 연계지하철역ID (1002000233, 1007000000)
-  trainStatus: TrainStatusValue;         // 열차종류 (급행,ITX,일반,특급)
-  arrivalTime: string;     // 열차도착예정시간 (단위:초)
-  trainNumber: string;         // 열차번호 (현재운행하고 있는 호선별 열차번호)
-  destinationStationId: string;           // 종착지하철역ID
-  destinationStationName: string;         // 종착지하철역명
-  receptionDateTime: string;         // 열차도착정보를 생성한 시각
-  arrivalMessageSecondary: string;   // 첫번째도착메세지 (도착, 출발, 진입 등)
-  arrivalMessageTertiary: string;    // 두번째도착메세지 (종합운동장 도착, 12분 후 (광명사거리) 등)
-  arrivalCode: ArrivalCodeValue;     // 도착코드 (0:진입, 1:도착, 2:출발, 3:전역출발, 4:전역진입, 5:전역도착, 99:운행중)
-  lastCarAt: LastCarAtValue;         // 막차여부 (1:막차, 0:일반)
-  remainText?: string;               // 계산된 경과시간 (선택적)
+  beginRow: null; // 페이징 시작 행
+  endRow: null; // 페이징 종료 행
+  curPage: null; // 현재 페이지
+  pageRow: null; // 페이지당 행 수
+  totalCount: number; // 총 데이터 건수
+  rowNum: number; // 행 번호
+  selectedCount: number; // 선택된 건수
+  subwayId: SubwayLineValue; // 지하철호선ID (1001:1호선, 1002:2호선, ...)
+  subwayName: null; // 지하철명
+  upDownLine: DirectionLineValue; // 상하행선구분 (상행/내선, 하행/외선)
+  trainLineName: string; // 도착지방면 (성수행 - 구로디지털단지방면)
+  subwayHeading: null; // 지하철 방향
+  stationFrontId: string; // 이전지하철역ID
+  stationTableId: string; // 다음지하철역ID
+  stationId: string; // 지하철역ID
+  stationName: string; // 지하철역명
+  trainCompany: null; // 열차 회사
+  transitCount: number; // 환승노선수
+  orderKey: string; // 도착예정열차순번 (상하행코드+순번+첫번째도착정류장-현재정류장+목적지정류장+급행여부)
+  subwayList: string; // 연계호선ID (1002, 1007 등 연계대상 호선ID)
+  stationList: string; // 연계지하철역ID (1002000233, 1007000000)
+  trainStatus: TrainStatusValue; // 열차종류 (급행,ITX,일반,특급)
+  arrivalTime: string; // 열차도착예정시간 (단위:초)
+  trainNumber: string; // 열차번호 (현재운행하고 있는 호선별 열차번호)
+  destinationStationId: string; // 종착지하철역ID
+  destinationStationName: string; // 종착지하철역명
+  receptionDateTime: string; // 열차도착정보를 생성한 시각
+  arrivalMessageSecondary: string; // 첫번째도착메세지 (도착, 출발, 진입 등)
+  arrivalMessageTertiary: string; // 두번째도착메세지 (종합운동장 도착, 12분 후 (광명사거리) 등)
+  arrivalCode: ArrivalCodeValue; // 도착코드 (0:진입, 1:도착, 2:출발, 3:전역출발, 4:전역진입, 5:전역도착, 99:운행중)
+  lastCarAt: LastCarAtValue; // 막차여부 (1:막차, 0:일반)
+  remainText?: string; // 계산된 경과시간 (선택적)
 };
 
 export type ReiciveDataTime = Date;
@@ -153,15 +155,15 @@ export type StationWithArrival = {
 };
 
 export type SubwayLineInfo = {
-  SUBWAY_ID: SubwayLineValue;
-  SUBWAY_NAME: string;
+  subwayId: SubwayLineValue;
+  subwayName: string;
 };
 
 export interface SubwaymasterData {
-  SUBWAY_ID: string;
-  STATION_CODE: string;
-  STATION_NAME: string;
-  SUBWAY_NAME: string;
+  subwayId: string;
+  stationCode: string;
+  stationName: string;
+  subwayName: string;
 }
 
 // type key = string; // makeKey 로 만든 그래프용 key

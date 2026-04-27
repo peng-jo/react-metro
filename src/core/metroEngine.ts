@@ -32,8 +32,8 @@ class MetroEngine {
   }
 
   private addSearchIndex(station: StationTopology) {
-    const name = station.station_name;
-    const stationCode = station.station_code;
+    const name = station.stationName;
+    const stationCode = station.stationCode;
 
     if (!this.stationNameCodeMap.has(name)) {
       this.stationNameCodeMap.set(name, new Set());
@@ -50,23 +50,23 @@ class MetroEngine {
     //   };
     // }
 
-    if (!this.stationMap.has(station.station_code)) {
-      this.stationMap.set(station.station_code, {
-        station_code: station.station_code,
-        station_name: station.station_name,
-        line_number: station.line_number,
+    if (!this.stationMap.has(station.stationCode)) {
+      this.stationMap.set(station.stationCode, {
+        stationCode: station.stationCode,
+        stationName: station.stationName,
+        lineNumber: station.lineNumber,
         color: station.color,
-        station_name_english: station.station_name_english,
-        station_name_china: station.station_name_china,
-        station_name_japan: station.station_name_japan,
-        line_number_origin: station.line_number_origin,
-        front_code: station.front_code,
+        stationNameEnglish: station.stationNameEnglish,
+        stationNameChina: station.stationNameChina,
+        stationNameJapan: station.stationNameJapan,
+        lineNumberOrigin: station.lineNumberOrigin,
+        frontCode: station.frontCode,
       });
     }
   }
 
   private addGraph(edge: StationTopology) {
-    const code = edge.station_code;
+    const code = edge.stationCode;
     const direction = edge.direction;
     const key = code + direction;
     if (this.stationGraph.has(key) === false) {
@@ -87,7 +87,7 @@ class MetroEngine {
 
   private initSubwayMasterData(subwayMasterData: SubwaymasterData[]) {
     subwayMasterData.forEach((data) => {
-      this.subwayMasterMap.set(data.STATION_CODE, data);
+      this.subwayMasterMap.set(data.stationCode, data);
     });
   }
 
@@ -102,7 +102,7 @@ class MetroEngine {
     }
     return Array.from(stationCodes)
       ?.map((code) => this.getStationInfoByCode(code))
-      .find((station) => station?.line_number_origin === lineNumberOrigin);
+      .find((station) => station?.lineNumberOrigin === lineNumberOrigin);
   }
 
   getstationGraphNodes(code: string, direction: string): GraphNode<string>[] {

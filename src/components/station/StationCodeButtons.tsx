@@ -16,8 +16,7 @@ const StationCodeButtons: React.FC<StationCodeButtonsProps> = ({
     <div className="flex py-3 md:py-6">
       {selectedCodes.map((code) => {
         const stationInfo = metroEngine.getStationInfoByCode(code);
-        const { color = "#2B7FFF", station_code: stationCode } =
-          stationInfo ?? {};
+        const { color = "#2B7FFF", stationCode } = stationInfo ?? {};
 
         return (
           <button

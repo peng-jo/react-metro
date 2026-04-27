@@ -11,13 +11,12 @@ type InfoProps = {
 
 const StationInfoItem: React.FC<InfoProps> = ({ station, node }) => {
   const {
-    station_name: stationName,
-    station_name_china: stationNameChn,
-    station_name_japan: stationNameJpn,
-    station_code: stationCode,
-    line_number_origin: stationNum,
-    station_name_english: stationNameEng,
-    front_code: frontCode,
+    stationName: stationName,
+    stationNameChina: stationNameChn,
+    stationNameJapan: stationNameJpn,
+    stationCode: stationCode,
+    stationNameEnglish: stationNameEng,
+    frontCode: frontCode,
     color,
   } = station ?? {};
 

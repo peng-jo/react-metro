@@ -34,10 +34,10 @@ const Station: React.FC = () => {
   const handleChangeStation = useCallback(
     (stationInfo: StationInfo) => {
       if (stationInfo) {
-        setStationName(stationInfo.station_name);
-        setSelectedCode(stationInfo.station_code);
+        setStationName(stationInfo.stationName);
+        setSelectedCode(stationInfo.stationCode);
         const stationCodes = metroEngine.getStationCodesByName(
-          stationInfo.station_name,
+          stationInfo.stationName,
         );
         setSelectedCodes(stationCodes);
       }

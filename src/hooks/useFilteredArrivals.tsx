@@ -14,9 +14,9 @@ export function useFilteredArrivals(
   currentStation: StationInfo | undefined,
   arrivals: RealtimeArrivalInfo[],
 ) {
-  const originLineNumber = currentStation?.line_number_origin ?? "";
+  const originLineNumber = currentStation?.lineNumberOrigin ?? "";
   const lineInfoData = lineInfo as SubwayLineInfo[];
-  const stationCode = currentStation?.station_code ?? "";
+  const stationCode = currentStation?.stationCode ?? "";
 
   if (arrivals.length === 0) {
     return {};
@@ -87,10 +87,10 @@ function filterArrivalsByLineNumber(
 ) {
   return arrivals?.filter((arrive) => {
     const lineInfo = lineInfoData.find((lineInfo) => {
-      return lineInfo.SUBWAY_ID === arrive.subwayId;
+      return lineInfo.subwayId === arrive.subwayId;
     });
 
-    return lineInfo?.SUBWAY_NAME === originLineNumber;
+    return lineInfo?.subwayName === originLineNumber;
   });
 }
 
@@ -120,7 +120,7 @@ function filterByCurrentStation(
   currentStation: StationInfo | undefined,
 ) {
   return arrivals.filter((arrival) => {
-    const lineNumberOrigin = currentStation?.line_number_origin;
+    const lineNumberOrigin = currentStation?.lineNumberOrigin;
     const arriveStationInformation = metroEngine.getStationInfo(
       arrival.arrivalMessageTertiary,
       lineNumberOrigin,
@@ -136,7 +136,7 @@ function filterByCurrentStation(
     if (terminalStation && currentNode.direction) {
       terminateNodes = metroEngine
         .getstationGraphNodes(
-          terminalStation.station_code,
+          terminalStation.stationCode,
           currentNode.direction,
         )
         .filter((n) => n.direction === currentNode?.direction);
@@ -148,7 +148,7 @@ function filterByCurrentStation(
       return false;
     }
 
-    const arriveStationCode = arriveStationInformation?.station_code ?? "";
+    const arriveStationCode = arriveStationInformation?.stationCode ?? "";
     const nextStationCode = currentNode.next;
     const prevStationCode = currentNode.prev;
 
@@ -205,7 +205,7 @@ function getprevStationsList(
           stationName,
           originLineNumber,
         );
-        const targetStationCode = stationInfo?.station_code;
+        const targetStationCode = stationInfo?.stationCode;
 
         return {
           stationInfo: stationInfo,
@@ -242,10 +242,11 @@ function getprevStationsList(
       if (currentStationInfo) {
         // 해당 역에 대한 도착 정보 찾기
         const arrival = arrivals.find(
-          (arr) => arr.arrivalMessageTertiary === currentStationInfo.station_name,
+          (arr) =>
+            arr.arrivalMessageTertiary === currentStationInfo.stationName,
         );
         upcomingStations.push({
-          name: currentStationInfo.station_name,
+          name: currentStationInfo.stationName,
           staying: !!arrival,
           arrivalTime: "",
         });

@@ -1,82 +1,82 @@
 [
   {
-    "SUBWAY_ID": "1001",
-    "SUBWAY_NAME": "01호선"
+    "subwayId": "1001",
+    "subwayName": "01호선"
   },
   {
-    "SUBWAY_ID": "1002",
-    "SUBWAY_NAME": "02호선"
+    "subwayId": "1002",
+    "subwayName": "02호선"
   },
   {
-    "SUBWAY_ID": "1003",
-    "SUBWAY_NAME": "03호선"
+    "subwayId": "1003",
+    "subwayName": "03호선"
   },
   {
-    "SUBWAY_ID": "1004",
-    "SUBWAY_NAME": "04호선"
+    "subwayId": "1004",
+    "subwayName": "04호선"
   },
   {
-    "SUBWAY_ID": "1005",
-    "SUBWAY_NAME": "05호선"
+    "subwayId": "1005",
+    "subwayName": "05호선"
   },
   {
-    "SUBWAY_ID": "1006",
-    "SUBWAY_NAME": "06호선"
+    "subwayId": "1006",
+    "subwayName": "06호선"
   },
   {
-    "SUBWAY_ID": "1007",
-    "SUBWAY_NAME": "07호선"
+    "subwayId": "1007",
+    "subwayName": "07호선"
   },
   {
-    "SUBWAY_ID": "1008",
-    "SUBWAY_NAME": "08호선"
+    "subwayId": "1008",
+    "subwayName": "08호선"
   },
   {
-    "SUBWAY_ID": "1009",
-    "SUBWAY_NAME": "09호선"
+    "subwayId": "1009",
+    "subwayName": "09호선"
   },
   {
-    "SUBWAY_ID": "1061",
-    "SUBWAY_NAME": "중앙선"
+    "subwayId": "1061",
+    "subwayName": "중앙선"
   },
   {
-    "SUBWAY_ID": "1063",
-    "SUBWAY_NAME": "경의중앙선"
+    "subwayId": "1063",
+    "subwayName": "경의중앙선"
   },
   {
-    "SUBWAY_ID": "1065",
-    "SUBWAY_NAME": "공항철도"
+    "subwayId": "1065",
+    "subwayName": "공항철도"
   },
   {
-    "SUBWAY_ID": "1067",
-    "SUBWAY_NAME": "경춘선"
+    "subwayId": "1067",
+    "subwayName": "경춘선"
   },
   {
-    "SUBWAY_ID": "1075",
-    "SUBWAY_NAME": "수인분당선"
+    "subwayId": "1075",
+    "subwayName": "수인분당선"
   },
   {
-    "SUBWAY_ID": "1077",
-    "SUBWAY_NAME": "신분당선"
+    "subwayId": "1077",
+    "subwayName": "신분당선"
   },
   {
-    "SUBWAY_ID": "1092",
-    "SUBWAY_NAME": "우이신설경전철"
+    "subwayId": "1092",
+    "subwayName": "우이신설경전철"
   },
   {
-    "SUBWAY_ID": "1093",
-    "SUBWAY_NAME": "서해선"
+    "subwayId": "1093",
+    "subwayName": "서해선"
   },
   {
-    "SUBWAY_ID": "1094",
-    "SUBWAY_NAME": "신림선"
+    "subwayId": "1094",
+    "subwayName": "신림선"
   },
   {
-    "SUBWAY_ID": "1081",
-    "SUBWAY_NAME": "경강선"
+    "subwayId": "1081",
+    "subwayName": "경강선"
   },
   {
-    "SUBWAY_ID": "1032",
-    "SUBWAY_NAME": "GTX-A"
+    "subwayId": "1032",
+    "subwayName": "GTX-A"
   }
 ]

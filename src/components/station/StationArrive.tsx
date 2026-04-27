@@ -36,12 +36,12 @@ const Arrive: React.FC<{
   ) {
     const targetStation = metroEngine.getStationInfo(
       targetStationName,
-      baseStation?.line_number_origin,
+      baseStation?.lineNumberOrigin,
     );
     if (!targetStation || !baseStation) {
       return "";
     }
-    const targetStationCode = targetStation?.station_code;
+    const targetStationCode = targetStation?.stationCode;
     const ahead = metroEngine.findAheadByNode(targetStationCode, baseNode, 0);
 
     if (ahead === 0) {

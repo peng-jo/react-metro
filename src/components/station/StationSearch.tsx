@@ -115,7 +115,7 @@ const StationSearch: React.FC<SearchProps> = ({
     if (!station) {
       return;
     }
-    setKeyword(station.station_name);
+    setKeyword(station.stationName);
     setIsOpensearchList(false);
     onChangeStaion(station);
   }
@@ -163,11 +163,11 @@ const StationSearch: React.FC<SearchProps> = ({
             <ul className="bg-white absolute z-10 w-full border rounded-lg mt-1 max-h-48 overflow-y-auto">
               {filteredStations.map((stations) => {
                 return stations.map((station) => {
-                  const stationName = station.station_name;
+                  const stationName = station.stationName;
 
                   return (
                     <li
-                      key={station?.station_code}
+                      key={station?.stationCode}
                       className="px-4 py-2 cursor-pointer flex items-center justify-between hover:bg-zinc-300"
                       onClick={() => handleSelect(station)}
                     >
@@ -176,7 +176,7 @@ const StationSearch: React.FC<SearchProps> = ({
 
                       <div className="flex gap-1">
                         <span
-                          title={station.line_number}
+                          title={station.lineNumber}
                           className="w-3 h-3 rounded-full"
                           style={{ background: station.color }}
                         />
