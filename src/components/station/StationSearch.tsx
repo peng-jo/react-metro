@@ -175,11 +175,13 @@ const StationSearch: React.FC<SearchProps> = ({
                       <span>{stationName}</span>
 
                       <div className="flex gap-1">
-                        <span
+                        <div
                           title={station.lineNumber}
-                          className="w-3 h-3 rounded-full"
+                          className=" text-white rounded-lg flex justify-center items-center text-xs sm:text-sm px-2 py-1 sm:px-3 sm:py-2 font-bold"
                           style={{ background: station.color }}
-                        />
+                        >
+                          {station.lineNumberOrigin}
+                        </div>
                       </div>
                     </li>
                   );
